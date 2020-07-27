@@ -1,0 +1,187 @@
+.table-title
+{
+    text-align: center;
+    text-transform: uppercase;
+    color: whitesmoke;
+    text-shadow: 2px 2px 5px rgb(30, 140, 243);
+}
+
+.main-table
+{ 
+    display: grid;
+    grid-template-columns: 5.4% 5.4% 5.4% 5.4% 5.4% 5.4% 5.4% 5.4% 5.4% 5.4% 5.4% 5.4% 5.4% 5.4% 5.4% 5.4% 5.4% 5.4%;
+    grid-template-rows:  11%  11%  11%  11%  11%  11%  11%  11%  11%;
+}
+
+.element
+{
+    display: flex;
+    flex-direction: column;    
+    border-radius: 5px;
+    border: 1px solid black;
+}
+
+.element span
+{
+    text-align: center;
+    text-transform: capitalize;
+}
+
+.simbol a
+{
+    text-decoration: none;
+    color: black;
+}
+
+.simbol a:hover
+{
+    font-size: larger;
+    text-decoration: underline;
+}
+
+.h
+{
+    background-color: rgba(255, 255, 255, 0.630);
+}
+
+.li, .be, .na, .mg, .al, .k, .ca, .sc, .ti, .v, .cr, .mn, .fe, .co, .ni, .cu, .zn, .ga, .ge, .rb, .sr, .y, .zr, .nb, .mo, .tc, .ru, .rh, .pd, .ag, .cd, .in, .sn, .sb, .cs, .ba, .hf, .ta, 
+.w, .re, .os, .ir, .pt, .au, .hg, .tl, .pb, .bi, .po, .fr, .ra, .rf, .db, .sg, .bh, .hs, .mt, .ds, .rg, .cn, .nh, .fl, .mc, .lv, .ts
+{
+    background-color: rgba(243, 160, 130, 0.630);
+}
+
+.he, .b, .c, .n, .o, .f, .ne, .si, .p, .s, .cl, .ar, .as, .se, .br, .kr, .te, .i, .xe, .at, .rn, .og
+{
+    background-color: rgba(250, 248, 131, 0.630);
+}
+
+.ce, .pr, .nd, .pm, .sm, .eu, .gd, .tb, .dy, .ho, .er, .tm, .yb, .lu, .th, .pa, .u, .np, .pu, .am, .cm, .bk, .cf, .es, .fm, .md, .no, .lr
+{
+    background-color: rgba(144, 178, 241, 0.630);
+}
+
+.la, .ac 
+{
+    background-image: linear-gradient(to right, rgba(243, 160, 130, 0.630), rgba(144, 178, 241, 0.630));
+}
+
+.h .simbol a, .he .simbol a, .n .simbol a, .o .simbol a, .f .simbol a, .ne .simbol a, .cl .simbol a, .ar .simbol a, .kr .simbol a, .xe .simbol a, .rn .simbol a, .og .simbol a, .red
+{
+    color: rgb(202, 56, 56);
+}
+
+.br .simbol a, .hg .simbol a, .blue
+{
+    color: rgb(37, 156, 253);
+}
+
+.simbol, .color
+{
+    font-weight: bold;
+}
+
+.fun-facts li, .legend li
+{
+    list-style-type: circle;
+}
+
+.fun-facts li:hover
+{
+    color: whitesmoke;
+    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+}
+
+/*phones*/
+@media only screen and (max-width: 600px)
+{
+    .table-title
+    {
+        font-size: 15px;
+    }
+
+    .main-table
+    {
+        gap: 1px;
+        margin: 20px 0px 60px;
+    }
+
+    .element span 
+    {
+        font-size: 12px;
+    }
+
+    span.name, #name
+    {
+        display: none;
+    }
+
+    .elements, .per-table, .legend
+    {
+        font-size: 10px;
+    }
+}
+
+/*tablet*/
+@media only screen and (min-width: 600px)
+{
+    .table-title
+    {
+        font-size: 20px;
+    }
+
+    .main-table
+    {
+        gap: 1px;
+        margin: 30px 0px 80px;
+    }
+    
+    .element span 
+    {
+        font-size: 12px;
+    }
+
+    span.name, #name
+    {
+        display: none;
+    }
+
+    .elements, .per-table, .legend
+    {
+        font-size: 15px;
+    }
+}
+
+/*desktop breakpoint*/
+@media only screen and (min-width: 1200px)
+{
+    .table-title
+    {
+        font-size: 25px;
+    }
+
+    .main-table
+    {
+        gap: 2px;
+        margin: 40px 0px 100px;
+    }
+
+    .element span 
+    {
+        font-size: 12px;
+    }
+
+    span.name, #name
+    {
+        display: inline-block;
+    }
+
+    span.name
+    {
+        font-size: 10px;
+    }
+
+    .elements, .per-table, .legend
+    {
+        font-size: 20px;
+    }
+}

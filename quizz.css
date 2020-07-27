@@ -1,0 +1,39 @@
+.main-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    flex-wrap: nowrap;
+}
+
+.quiz a {
+    color: darkblue;
+    text-decoration: none;
+}
+
+.quiz a:hover {
+    color: white;
+    text-shadow: 2px 2px 5px darkblue;
+    text-decoration: underline;
+}
+
+@media only screen and (max-width: 600px) {
+    .quiz {
+        padding: 5px 0;
+        font-size: 15px;
+    }
+}
+
+@media only screen and (min-width: 600px) {
+    .quiz {
+        padding: 7px 0;
+        font-size: 20px;
+    }
+}
+
+@media only screen and (min-width: 1200px) {
+    .quiz {
+        padding: 10px 0;
+        font-size: 25px;
+    }
+}

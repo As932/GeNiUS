@@ -1,0 +1,76 @@
+.main-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: transparent;
+}
+
+.container {
+    width: 800px;
+    max-width: 80%;
+    background-color: white;
+    border-radius: 5px;
+    padding: 10px;
+    box-shadow: 0 0 10px 2px;
+    margin: 100px 0 0 0;
+}
+
+.btn-grid {
+    display: grid;
+    grid-template-columns: repeat(2, auto);
+    gap: 10px;
+    margin: 20px 0;
+}
+
+.btn {
+    background-color: rgba(69, 175, 207, 0.84);
+    border: 1px solid rgba(45, 110, 129, 0.84);
+    border-radius: 5px;
+    padding: 5px 10px;
+    color: white;
+    outline: none;
+}
+
+.btn:hover {
+    border-color: black;
+}
+
+.btn.correct {
+    background-color: rgb(39, 179, 85, 0.84);
+}
+
+.btn.wrong {
+    background-color: rgba(220, 20, 60, 0.84);
+}
+
+.start-btn, .next-btn {
+    font-size: 20px;
+    font-weight: bold;
+    padding: 10px 20px;
+}
+
+.controls {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.hide {
+    display: none;
+}
+
+@media only screen and (max-width: 600px) {
+    .container {
+        margin: 50px 0 0 0;
+    }
+
+    #question, #answer-buttons.btn {
+        font-size: 15px;
+    }
+}
+
+@media only screen and (min-width: 600px) {
+    #question, #answer-buttons.btn {
+        font-size: 20px;
+    }
+}

@@ -1,0 +1,98 @@
+.elm-title
+{
+    text-align: center;
+}
+
+table
+{
+    border-collapse: collapse;
+    text-align: center;
+}
+
+th, tr, td
+{
+    border: 1px solid black;
+}
+
+.fun-facts li:hover
+{
+    color: whitesmoke;
+    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+}
+
+.info li
+{
+    list-style-type: circle;
+}
+
+@media only screen and (max-width: 600px)
+{
+    .elm-title
+    {
+        font-size: 15px;
+    }
+
+    table
+    {
+        margin: 30px auto;
+        font-size: 10px;
+    }
+
+    th, td
+    {
+        padding: 2px;
+    }
+
+    .discovery, .uses, .fun-facts
+    {
+        font-size: 10px;
+    }
+}
+
+@media only screen and (min-width: 600px)
+{
+    .elm-title
+    {
+        font-size: 20px;
+    }
+
+    table
+    {
+        margin: 40px auto;
+        font-size: 11px;
+    }
+
+    th, td
+    {
+        padding: 2px;
+    }
+
+    .discovery, .uses, .fun-facts
+    {
+        font-size: 15px;
+    }
+}
+
+@media only screen and (min-width: 1200px)
+{
+    .elm-title
+    {
+        font-size: 25px;
+    }
+
+    table
+    {
+        margin: 80px auto;
+        font-size: 20px;
+    }
+
+    th, td
+    {
+        padding: 10px;
+    }
+
+    .discovery, .uses, .fun-facts
+    {
+        font-size: 20px;
+    }
+}

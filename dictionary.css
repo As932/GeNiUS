@@ -1,0 +1,21 @@
+.term dt {
+    color: rgba(218, 38, 38, 0.938);
+}
+
+@media only screen and (max-width: 600px) {
+    .term dt, .term dd {
+        font-size: 10px;
+    }
+}
+
+@media only screen and (min-width: 600px) {
+    .term dt, .term dd {
+        font-size: 15px;
+    }
+}
+
+@media only screen and (min-width: 1200px) {
+    .term dt, .term dd {
+        font-size: 20px;
+    }
+}

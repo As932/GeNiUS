@@ -1,0 +1,197 @@
+.introduction-container
+{
+    display: grid;
+}
+
+.introduction-item
+{
+    border-radius: 5px;
+    text-align: center;
+    color: whitesmoke;
+    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+}
+
+.introduction-item a
+{
+    color: whitesmoke;
+    text-shadow: 2px 2px 5px black;
+    text-decoration: none;
+}
+
+.introduction-item a:hover
+{
+    text-decoration: underline;
+}
+
+.website
+{
+    background-color: rgba(255, 181, 44, 0.7);
+}
+
+.table
+{
+    background-color: rgba(158, 230, 86, 0.7);
+}
+
+.quizz
+{
+    background-color: rgba(247, 179, 193, 0.7);
+}
+
+.dictionary
+{
+    background-color: rgba(208, 163, 235, 0.7);
+}
+
+.brief-indication
+{
+    display: block;
+    border-radius: 5px;
+    background-color: rgba(110, 206, 238, 0.8);
+    text-align: center;
+}
+
+.brief-indication a
+{
+    color: whitesmoke;
+    text-decoration: none;
+}
+
+.brief-indication:hover
+{
+    background-color: rgba(73, 188, 223, 0.884);
+    text-shadow: 2px 2px 5px black;
+}
+
+.question:hover
+{
+    color: white;
+    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+}
+
+.bibliography a {
+    text-decoration: none;
+    color: white;
+    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+}
+
+.bibliography a:hover {
+    text-decoration: underline;
+}
+
+/*phones*/
+@media only screen and (max-width: 600px)
+{
+    .introduction-container
+    {
+        grid-template-columns: auto;
+        grid-template-rows: auto auto auto auto auto;
+        gap: 5px;
+    }
+
+    .introduction-item
+    {
+        font-size: 10px;
+        padding: 5px;
+    }
+
+    .website
+    {
+        grid-row: 1;
+    }
+
+    .brief-indication
+    {
+        font-size: 12px;
+        padding: 5px;
+        margin: 30px 20px;
+    }
+
+    .def-container
+    {
+        font-size: 10px;
+    }
+}
+
+/*tablet*/
+@media only screen and (min-width: 600px)
+{
+    .introduction-container
+    {
+        grid-template-columns: auto auto;
+        grid-template-rows: auto auto auto auto;
+        gap: 10px;
+    }
+
+    .introduction-item
+    {
+        font-size: 15px;
+        padding: 10px;
+    }
+
+    .website
+    {
+        grid-row: 1 / span 2;
+        grid-column: 1 / span 2;
+    }
+
+    .dictionary
+    {
+        grid-row: 4;
+        grid-column: 1 / span 2;
+    }
+
+    .brief-indication
+    {
+        font-size: 15px;
+        padding: 5px;
+        margin: 60px 20px 80px;
+    }
+
+    .def-container
+    {
+        font-size: 15px;
+    }
+}
+
+/*desktop breakpoint*/
+@media only screen and (min-width: 1200px)
+{
+    .introduction-container
+    {
+        grid-template-columns: auto auto;
+        grid-template-rows: auto auto auto auto;
+        gap: 25px;
+        margin: 70px 30px 150px;
+    }
+
+    .introduction-item
+    {
+        font-size: 18px;
+        padding: 10px;
+    }
+
+    .website
+    {
+        grid-row: 1 / span 2;
+        grid-column: 1 / span 2;
+    }
+
+    .dictionary
+    {
+        grid-row: 4;
+        grid-column: 1 / span 2;
+    }
+
+    .brief-indication
+    {
+        font-size: 20px;
+        padding: 10px;
+        margin: 60px 60px 100px;
+    }
+
+    .def-container
+    {
+        font-size: 20px;
+    }
+}
