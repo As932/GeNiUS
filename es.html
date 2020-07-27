@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="ro-RO">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <script src="https://kit.fontawesome.com/6b95d4e239.js" crossorigin="anonymous"></script>
+        <link href='https://fonts.googleapis.com/css?family=Lemonada' rel='stylesheet'>
+        <link rel="stylesheet" type="text/css" href="layout.css">   
+        <link rel="stylesheet" type="text/css" href="element.css">        
+        <title>GeNiUS</title>
+    </head>
+    <body>
+        <header>
+            <div class="header">
+                <h1 id="title">GeNiUS</h1>
+                <h3 id="subtitle">Germaniu-Nichel-Uraniu-Sulf</h3>
+                <h4 id="subtitle">Chemistry is FUN</h4>
+            </div>
+        </header>
+        <nav class="menu">
+            <button class="back" onclick="history.back()"><i class="fas fa-arrow-circle-left"></i></button>
+            <button class="back" onclick="history.forward()"><i class="fas fa-arrow-circle-right"></i></button>
+            <a class="menu-item" href="home.html"><i class="fas fa-home"></i>Acasă</a>
+            <a class="menu-item active" href="table.html"><i class="fas fa-atom"></i>Tabelul periodic</a>
+            <a class="menu-item" href="quizz.html"><i class="fas fa-book-open"></i>Quizz-uri</a>
+            <a class="menu-item" href="dictionary.html"><i class="fas fa-book"></i>Dicționar de termeni</a>
+        </nav>
+        <div class="main-container">
+            <h2 class="elm-title">Einsteiniu</h2>
+            <div class="info">
+                <table>
+                    <caption>Proprietăți</caption>
+                    <tr>
+                        <th colspan="2">Informații generale</th>
+                        <th colspan="2">Proprietăți chimice</th>
+                        <th colspan="2">Proprietăți fizice</th>
+                    </tr>
+                    <tr>
+                        <th>Denumire</th>
+                        <td>Einsteiniu</td>
+                        <th>Număr atomic</th>
+                        <td>99</td>
+                        <th>Stare de agregare</th>
+                        <td>solid</td>
+                    </tr>
+                    <tr>
+                        <th>Simbol</th>
+                        <td>Es</td>
+                        <th>Masă atomică</th>
+                        <td>252,1</td>
+                        <th>Punct de topire</th>
+                        <td>860°C</td>
+                    </tr>
+                    <tr>
+                        <th>Serie chimică</th>
+                        <td>actinid</td>
+                        <th>Configurație electronică</th>
+                        <td>5f<sup>11</sup> 7s<sup>2</sup></td>
+                        <th>Punct de fierbere</th>
+                        <td>-</td>
+                    </tr>
+                    <tr>
+                        <th>Densitate</th>
+                        <td>8,84 g/cm<sup>3</sup></td>
+                        <th>Electronegativitate</th>
+                        <td>-</td>
+                        <th>Culoare</th>
+                        <td>-</td>
+                    </tr>
+                    <tr>
+                        <th>Bloc, grupă, perioadă</th>
+                        <td>f, -, -</td>
+                        <th>Număr de oxidare</th>
+                        <td>III</td>
+                        <th>Volum molar</th>
+                        <td>28,5 g/cm<sup>3</sup></td>
+                    </tr>
+                </table>
+                <div class="discovery">
+                    <h3 class="subtitle">Descoperire</h3>
+                    <hr>
+                    <p class="disc-info">
+                        Einsteinium a fost al șaptelea element sintetic de transuraniu al seriei de actinide descoperite.
+                        Einsteinium-253 (timpul de înjumătățire de 20,47 zile) a fost identificat în 1952 de echipe de oameni de știință de la Laboratorul Național 
+                        Lawrence Berkeley, Laboratorul Național Argonne și Laboratorul Științific Los Alamos. Proiectul a fost condus de Albert Ghiorso.
+                    </p>
+                </div>
+                <div class="uses"> 
+                    <h3 class="subtitle">Folosință</h3>
+                    <hr>
+                    <ul class="uses-info">
+                        <li>Einsteinium este doar de interes pentru cercetare.</li>
+                        <li>În 1955 einsteinium-253 a fost folosit pentru a crea mendelevium pentru prima dată. Mai puțin de o picogramă de einsteinium-253 
+                            a fost bombardată cu particule alfa în ciclotronul de 150 de centimetri al lui Berkeley.</li>
+                    </ul>
+                </div>
+                <div class="fun-facts">
+                    <h3 class="subtitle">Fun Facts</h3>
+                    <hr>
+                    <ul class="facts-info">
+                        <li>Einsteinium este un metal sintetic, puternic radioactiv, care a fost produs doar în cantități minuscule.</li>
+                        <li>Este primul metal divalent din seria actinidelor (doi electroni de legătură, mai degrabă decât trei).</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <footer>
+            <div class="footer">
+                <h3 class="footer-title">Contact:</h3>
+                <form action="">
+                    <label for="first-name">Prenume:</label><br>
+                    <input type="text" id="first-name" name="first-name" placeholder="Prenume" required><br>
+                    <label for="last-name">Nume:</label><br>
+                    <input type="text" id="last-name" name="last-name" placeholder="Nume" required><br>
+                    <label for="email-address">Adresă de email:</label><br>
+                    <input type="email" id="email-address" name="email-address" placeholder="Email" required><br>
+                    <label for="message">Mesaj:</label><br>
+                    <textarea name="message" id="message" cols="30" rows="10" placeholder="Mesaje, întrebări, păreri, etc." required></textarea><br><br>
+                    <input type="submit" value="Trimite">
+                </form>
+            </div>
+        </footer>
+    </body>
+</html>
