@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="ro-RO">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <script src="https://kit.fontawesome.com/6b95d4e239.js" crossorigin="anonymous"></script>
+        <link href='https://fonts.googleapis.com/css?family=Lemonada' rel='stylesheet'>
+        <link rel="stylesheet" type="text/css" href="layout.css">   
+        <link rel="stylesheet" type="text/css" href="element.css">        
+        <title>GeNiUS</title>
+    </head>
+    <body>
+        <header>
+            <div class="header">
+                <h1 id="title">GeNiUS</h1>
+                <h3 id="subtitle">Germaniu-Nichel-Uraniu-Sulf</h3>
+                <h4 id="subtitle">Chemistry is FUN</h4>
+            </div>
+        </header>
+        <nav class="menu">
+            <button class="back" onclick="history.back()"><i class="fas fa-arrow-circle-left"></i></button>
+            <button class="back" onclick="history.forward()"><i class="fas fa-arrow-circle-right"></i></button>
+            <a class="menu-item" href="home.html"><i class="fas fa-home"></i>Acasă</a>
+            <a class="menu-item active" href="table.html"><i class="fas fa-atom"></i>Tabelul periodic</a>
+            <a class="menu-item" href="quizz.html"><i class="fas fa-book-open"></i>Quizz-uri</a>
+            <a class="menu-item" href="dictionary.html"><i class="fas fa-book"></i>Dicționar de termeni</a>
+        </nav>
+        <div class="main-container">
+            <h2 class="elm-title">Toriu</h2>
+            <div class="info">
+                <table>
+                    <caption>Proprietăți</caption>
+                    <tr>
+                        <th colspan="2">Informații generale</th>
+                        <th colspan="2">Proprietăți chimice</th>
+                        <th colspan="2">Proprietăți fizice</th>
+                    </tr>
+                    <tr>
+                        <th>Denumire</th>
+                        <td>Toriu</td>
+                        <th>Număr atomic</th>
+                        <td>90</td>
+                        <th>Stare de agregare</th>
+                        <td>solid</td>
+                    </tr>
+                    <tr>
+                        <th>Simbol</th>
+                        <td>Th</td>
+                        <th>Masă atomică</th>
+                        <td>232,0</td>
+                        <th>Punct de topire</th>
+                        <td>1750°C</td>
+                    </tr>
+                    <tr>
+                        <th>Serie chimică</th>
+                        <td>actinid</td>
+                        <th>Configurație electronică</th>
+                        <td>6d<sup>2</sup> 7s<sup>2</sup></td>
+                        <th>Punct de fierbere</th>
+                        <td>4790°C</td>
+                    </tr>
+                    <tr>
+                        <th>Densitate</th>
+                        <td>11,7 g/cm<sup>3</sup></td>
+                        <th>Electronegativitate</th>
+                        <td>1,3</td>
+                        <th>Culoare</th>
+                        <td>argintiu</td>
+                    </tr>
+                    <tr>
+                        <th>Bloc, grupă, perioadă</th>
+                        <td>f, -, -</td>
+                        <th>Număr de oxidare</th>
+                        <td>III, IV</td>
+                        <th>Volum molar</th>
+                        <td>19,9 cm<sup>3</sup>/mol</td>
+                    </tr>
+                </table>
+                <div class="discovery">
+                    <h3 class="subtitle">Descoperire</h3>
+                    <hr>
+                    <p class="disc-info">
+                        Toriul a fost descoperit de Jöns Jacob Berzelius în 1828, la Stockholm, Suedia, după ce a primit un eșantion dintr-un mineral negru neobișnuit de la Hans Esmark 
+                        găsit pe o insulă în apropiere de Brevik, Norvegia. Mineralul conținea un număr mare de elemente cunoscute, inclusiv fier, mangan, plumb, staniu și uraniu, plus o 
+                        altă substanță pe care Berzelius nu a putut-o identifica. El a concluzionat că mineralul conținea un element nou.
+                    </p>
+                </div>
+                <div class="uses"> 
+                    <h3 class="subtitle">Folosință</h3>
+                    <hr>
+                    <ul class="uses-info">
+                        <li>Majoritatea utilizărilor non-nucleare ale toriului sunt determinate de proprietățile unice ale oxidului său.</li>
+                        <li>Dioxidul de toriu este utilizat pentru ceramică rezistentă la căldură.</li>
+                        <li>Sticla care conține dioxid de toriu are un indice de refracție ridicat și o dispersie scăzută, astfel încât dioxidul de toriu este adăugat în sticlă pentru 
+                            utilizare în lentile de înaltă calitate și echipamente științifice.</li>
+                        <li>Toriul este utilizat pentru acoperirea filamentelor de wolfram din becuri.</li>
+                        <li>Cererea de toriu în aplicații non-nucleare scade datorită problemelor de mediu și de sănătate cauzate de radioactivitatea sa.</li>
+                    </ul>
+                </div>
+                <div class="fun-facts">
+                    <h3 class="subtitle">Fun Facts</h3>
+                    <hr>
+                    <ul class="facts-info">
+                        <li>Toriul este radioactiv. Se colectează în oase de animale vii, inclusiv os uman, unde poate rămâne o perioadă lungă de timp.</li>
+                        <li>Toriul este un metal radioactiv, luminos, moale, alb-argintiu. Cel mai stabil izotop este toriu-232, cu o perioadă de înjumătățire de 14,05 miliarde de ani. 
+                            Aproape 100% din toriul găsit pe Pământ este toriu-232, care este doar puțin radioactiv, deoarece are o perioadă de înjumătățire foarte lungă</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <footer>
+            <div class="footer">
+                <h3 class="footer-title">Contact:</h3>
+                <form action="">
+                    <label for="first-name">Prenume:</label><br>
+                    <input type="text" id="first-name" name="first-name" placeholder="Prenume" required><br>
+                    <label for="last-name">Nume:</label><br>
+                    <input type="text" id="last-name" name="last-name" placeholder="Nume" required><br>
+                    <label for="email-address">Adresă de email:</label><br>
+                    <input type="email" id="email-address" name="email-address" placeholder="Email" required><br>
+                    <label for="message">Mesaj:</label><br>
+                    <textarea name="message" id="message" cols="30" rows="10" placeholder="Mesaje, întrebări, păreri, etc." required></textarea><br><br>
+                    <input type="submit" value="Trimite">
+                </form>
+            </div>
+        </footer>
+    </body>
+</html>

@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="ro-RO">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <script src="https://kit.fontawesome.com/6b95d4e239.js" crossorigin="anonymous"></script>
+        <link href='https://fonts.googleapis.com/css?family=Lemonada' rel='stylesheet'>
+        <link rel="stylesheet" type="text/css" href="layout.css">   
+        <link rel="stylesheet" type="text/css" href="element.css">        
+        <title>GeNiUS</title>
+    </head>
+    <body>
+        <header>
+            <div class="header">
+                <h1 id="title">GeNiUS</h1>
+                <h3 id="subtitle">Germaniu-Nichel-Uraniu-Sulf</h3>
+                <h4 id="subtitle">Chemistry is FUN</h4>
+            </div>
+        </header>
+        <nav class="menu">
+            <button class="back" onclick="history.back()"><i class="fas fa-arrow-circle-left"></i></button>
+            <button class="back" onclick="history.forward()"><i class="fas fa-arrow-circle-right"></i></button>
+            <a class="menu-item" href="home.html"><i class="fas fa-home"></i>Acasă</a>
+            <a class="menu-item active" href="table.html"><i class="fas fa-atom"></i>Tabelul periodic</a>
+            <a class="menu-item" href="quizz.html"><i class="fas fa-book-open"></i>Quizz-uri</a>
+            <a class="menu-item" href="dictionary.html"><i class="fas fa-book"></i>Dicționar de termeni</a>
+        </nav>
+        <div class="main-container">
+            <h2 class="elm-title">Protactiniu</h2>
+            <div class="info">
+                <table>
+                    <caption>Proprietăți</caption>
+                    <tr>
+                        <th colspan="2">Informații generale</th>
+                        <th colspan="2">Proprietăți chimice</th>
+                        <th colspan="2">Proprietăți fizice</th>
+                    </tr>
+                    <tr>
+                        <th>Denumire</th>
+                        <td>Protactiniu</td>
+                        <th>Număr atomic</th>
+                        <td>91</td>
+                        <th>Stare de agregare</th>
+                        <td>solid</td>
+                    </tr>
+                    <tr>
+                        <th>Simbol</th>
+                        <td>Pa</td>
+                        <th>Masă atomică</th>
+                        <td>231,0</td>
+                        <th>Punct de topire</th>
+                        <td>1570°C</td>
+                    </tr>
+                    <tr>
+                        <th>Serie chimică</th>
+                        <td>actinid</td>
+                        <th>Configurație electronică</th>
+                        <td>5f<sup>2</sup> 6d<sup>1</sup> 7s<sup>2</sup></td>
+                        <th>Punct de fierbere</th>
+                        <td>4000°C</td>
+                    </tr>
+                    <tr>
+                        <th>Densitate</th>
+                        <td>15,4 g/cm<sup>3</sup></td>
+                        <th>Electronegativitate</th>
+                        <td>1,5</td>
+                        <th>Culoare</th>
+                        <td>argintiu</td>
+                    </tr>
+                    <tr>
+                        <th>Bloc, grupă, perioadă</th>
+                        <td>f, -, -</td>
+                        <th>Număr de oxidare</th>
+                        <td>III, IV, V</td>
+                        <th>Volum molar</th>
+                        <td>15,0 cm<sup>3</sup>/mol</td>
+                    </tr>
+                </table>
+                <div class="discovery">
+                    <h3 class="subtitle">Descoperire</h3>
+                    <hr>
+                    <p class="disc-info">
+                        Povestea de descoperire a protactiniului se întinde pe câțiva ani. Chimistul polonez Kasimir Fajans și chimistul german Oswald Göhring au descoperit Protactiniul 
+                        în 1913 la Karlsruhe, Germania. Ei au numit elementul „brevium”, deoarece izotopul pe care l-au găsit (protactiniu-234) are un timp de înjumătățire foarte scurt 
+                        (1,17 minute).
+                    </p>
+                </div>
+                <div class="uses"> 
+                    <h3 class="subtitle">Folosință</h3>
+                    <hr>
+                    <ul class="uses-info">
+                        <li>Protactiniul este utilizat în principal în scopuri de cercetare.</li>
+                        <li>Protactiniu-231 combinat cu toriu-230 poate fi utilizat pentru sedimentele marine.</li>
+                    </ul>
+                </div>
+                <div class="fun-facts">
+                    <h3 class="subtitle">Fun Facts</h3>
+                    <hr>
+                    <ul class="facts-info">
+                        <li>Protactiniu este dăunător datorită radioactivității sale și este, de asemenea, toxic.</li>
+                        <li>Aproape tot protactiniul natural este izotopul-231. Emite radiații alfa și este produs prin descompunerea uraniului-235.</li>
+                        <li>Protactiniul este unul dintre cele mai rare și mai scumpe elemente care apar în mod natural.</li>
+                        <li>Cea mai mare cantitate de protactiniu obținută până în prezent a fost de 125 de grame în 1961 la Autoritatea pentru Energie Atomică din Marea Britanie. 
+                            Extracția s-a făcut din 60 de tone de deșeuri nucleare.</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <footer>
+            <div class="footer">
+                <h3 class="footer-title">Contact:</h3>
+                <form action="">
+                    <label for="first-name">Prenume:</label><br>
+                    <input type="text" id="first-name" name="first-name" placeholder="Prenume" required><br>
+                    <label for="last-name">Nume:</label><br>
+                    <input type="text" id="last-name" name="last-name" placeholder="Nume" required><br>
+                    <label for="email-address">Adresă de email:</label><br>
+                    <input type="email" id="email-address" name="email-address" placeholder="Email" required><br>
+                    <label for="message">Mesaj:</label><br>
+                    <textarea name="message" id="message" cols="30" rows="10" placeholder="Mesaje, întrebări, păreri, etc." required></textarea><br><br>
+                    <input type="submit" value="Trimite">
+                </form>
+            </div>
+        </footer>
+    </body>
+</html>

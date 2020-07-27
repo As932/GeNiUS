@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="ro-RO">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <script src="https://kit.fontawesome.com/6b95d4e239.js" crossorigin="anonymous"></script>
+        <link href='https://fonts.googleapis.com/css?family=Lemonada' rel='stylesheet'>
+        <link rel="stylesheet" type="text/css" href="layout.css">   
+        <link rel="stylesheet" type="text/css" href="element.css">        
+        <title>GeNiUS</title>
+    </head>
+    <body>
+        <header>
+            <div class="header">
+                <h1 id="title">GeNiUS</h1>
+                <h3 id="subtitle">Germaniu-Nichel-Uraniu-Sulf</h3>
+                <h4 id="subtitle">Chemistry is FUN</h4>
+            </div>
+        </header>
+        <nav class="menu">
+            <button class="back" onclick="history.back()"><i class="fas fa-arrow-circle-left"></i></button>
+            <button class="back" onclick="history.forward()"><i class="fas fa-arrow-circle-right"></i></button>
+            <a class="menu-item" href="home.html"><i class="fas fa-home"></i>Acasă</a>
+            <a class="menu-item active" href="table.html"><i class="fas fa-atom"></i>Tabelul periodic</a>
+            <a class="menu-item" href="quizz.html"><i class="fas fa-book-open"></i>Quizz-uri</a>
+            <a class="menu-item" href="dictionary.html"><i class="fas fa-book"></i>Dicționar de termeni</a>
+        </nav>
+        <div class="main-container">
+            <h2 class="elm-title">Neodim</h2>
+            <div class="info">
+                <table>
+                    <caption>Proprietăți</caption>
+                    <tr>
+                        <th colspan="2">Informații generale</th>
+                        <th colspan="2">Proprietăți chimice</th>
+                        <th colspan="2">Proprietăți fizice</th>
+                    </tr>
+                    <tr>
+                        <th>Denumire</th>
+                        <td>Neodim</td>
+                        <th>Număr atomic</th>
+                        <td>60</td>
+                        <th>Stare de agregare</th>
+                        <td>solid</td>
+                    </tr>
+                    <tr>
+                        <th>Simbol</th>
+                        <td>Nd</td>
+                        <th>Masă atomică</th>
+                        <td>144,2</td>
+                        <th>Punct de topire</th>
+                        <td>1016°C</td>
+                    </tr>
+                    <tr>
+                        <th>Serie chimică</th>
+                        <td>lantanid</td>
+                        <th>Configurație electronică</th>
+                        <td>4f<sup>4</sup> 6s<sup>2</sup></td>
+                        <th>Punct de fierbere</th>
+                        <td>3070°C</td>
+                    </tr>
+                    <tr>
+                        <th>Densitate</th>
+                        <td>7.0 g/cm<sup>3</sup></td>
+                        <th>Electronegativitate</th>
+                        <td>1,14</td>
+                        <th>Culoare</th>
+                        <td>alb-argintiu</td>
+                    </tr>
+                    <tr>
+                        <th>Bloc, grupă, perioadă</th>
+                        <td>f, -, -</td>
+                        <th>Număr de oxidare</th>
+                        <td>II, III, IV</td>
+                        <th>Volum molar</th>
+                        <td>20,6 cm<sup>3</sup>/mol</td>
+                    </tr>
+                </table>
+                <div class="discovery">
+                    <h3 class="subtitle">Descoperire</h3>
+                    <hr>
+                    <p class="disc-info">
+                        Neodimul a fost identificat pentru prima dată în 1885, la Viena, de omul de știință austriac Carl Auer von Welsbach. Acesta a fost descoperit în „didymium”, o 
+                        substanță identificată incorect de chimistul suedez Carl Mosander ca element nou în 1841. Inexistentului „didymium” i-a fost dat chiar simbolul Di în prima 
+                        ediție a tabelului lui Mendeleev din 1869.
+                    </p>
+                </div>
+                <div class="uses"> 
+                    <h3 class="subtitle">Folosință</h3>
+                    <hr>
+                    <ul class="uses-info">
+                       <li>Neodimul este utilizat cu Fierul și Borul pentru a crea magneți permanenți puternici, numiți și magneți NIB. Magneții NIB sunt folosiți în calculatoare, 
+                           telefoane mobile, echipamente medicale, jucării, motoare, turbine eoliene și sisteme audio.</li>
+                        <li>Neodimul se folosește sub formă de cristal în lasere. Aceste laser ND: YAG au numeroase aplicații. De exemplu, sunt utilizate în medicină pentru tratarea 
+                            cancerelor de piele și pentru îndepărtarea părului cu laser, iar în industrie sunt folosiți pentru tăierea și sudarea oțelului.</li>
+                        <li>Neodimul este folosit pentru a face ochelari speciali.</li>
+                    </ul>
+                </div>
+                <div class="fun-facts">
+                    <h3 class="subtitle">Fun Facts</h3>
+                    <hr>
+                    <ul class="facts-info">
+                        <li>În ciuda faptului că este un element de pământ rar și nu se găsește niciodată în forma sa liberă în natură, Neodimul este la fel de răspândit în scoarța terestră 
+                            ca Nichelul, Cuprul și Cobaltul.</li>  
+                        <li>Neodimul este unul dintre cele mai reactive dintre metalele rare ale pământului, astfel încât acesta începe rapid să se oxideze în aer.</li>
+                        <li>În timp ce folosirea principală a Neodimului a fost ca un pigment roșiatic-purpuriu pentru sticlă și ceramică, are alte aplicații în îngrășământ.</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <footer>
+            <div class="footer">
+                <h3 class="footer-title">Contact:</h3>
+                <form action="">
+                    <label for="first-name">Prenume:</label><br>
+                    <input type="text" id="first-name" name="first-name" placeholder="Prenume" required><br>
+                    <label for="last-name">Nume:</label><br>
+                    <input type="text" id="last-name" name="last-name" placeholder="Nume" required><br>
+                    <label for="email-address">Adresă de email:</label><br>
+                    <input type="email" id="email-address" name="email-address" placeholder="Email" required><br>
+                    <label for="message">Mesaj:</label><br>
+                    <textarea name="message" id="message" cols="30" rows="10" placeholder="Mesaje, întrebări, păreri, etc." required></textarea><br><br>
+                    <input type="submit" value="Trimite">
+                </form>
+            </div>
+        </footer>
+    </body>
+</html>
