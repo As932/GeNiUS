@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="ro-RO">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <script src="https://kit.fontawesome.com/6b95d4e239.js" crossorigin="anonymous"></script>
+        <link href='https://fonts.googleapis.com/css?family=Lemonada' rel='stylesheet'>
+        <link rel="stylesheet" type="text/css" href="layout.css">   
+        <link rel="stylesheet" type="text/css" href="element.css">        
+        <title>GeNiUS</title>
+    </head>
+    <body>
+        <header>
+            <div class="header">
+                <h1 id="title">GeNiUS</h1>
+                <h3 id="subtitle">Germaniu-Nichel-Uraniu-Sulf</h3>
+                <h4 id="subtitle">Chemistry is FUN</h4>
+            </div>
+        </header>
+        <nav class="menu">
+            <button class="back" onclick="history.back()"><i class="fas fa-arrow-circle-left"></i></button>
+            <button class="back" onclick="history.forward()"><i class="fas fa-arrow-circle-right"></i></button>
+            <a class="menu-item" href="home.html"><i class="fas fa-home"></i>Acasă</a>
+            <a class="menu-item active" href="table.html"><i class="fas fa-atom"></i>Tabelul periodic</a>
+            <a class="menu-item" href="quizz.html"><i class="fas fa-book-open"></i>Quizz-uri</a>
+            <a class="menu-item" href="dictionary.html"><i class="fas fa-book"></i>Dicționar de termeni</a>
+        </nav>
+        <div class="main-container">
+            <h2 class="elm-title">Niobiu</h2>
+            <div class="info">
+                <table>
+                    <caption>Proprietăți</caption>
+                    <tr>
+                        <th colspan="2">Informații generale</th>
+                        <th colspan="2">Proprietăți chimice</th>
+                        <th colspan="2">Proprietăți fizice</th>
+                    </tr>
+                    <tr>
+                        <th>Denumire</th>
+                        <td>Niobiu</td>
+                        <th>Număr atomic</th>
+                        <td>41</td>
+                        <th>Stare de agregare</th>
+                        <td>solid</td>
+                    </tr>
+                    <tr>
+                        <th>Simbol</th>
+                        <td>Nb</td>
+                        <th>Masă atomică</th>
+                        <td>92,91</td>
+                        <th>Punct de topire</th>
+                        <td>2477°C</td>
+                    </tr>
+                    <tr>
+                        <th>Serie chimică</th>
+                        <td>metal de tranziție</td>
+                        <th>Configurație electronică</th>
+                        <td>4d<sup>4</sup> 5s<sup>1</sup></td>
+                        <th>Punct de fierbere</th>
+                        <td>4744°C</td>
+                    </tr>
+                    <tr>
+                        <th>Densitate</th>
+                        <td>8,57 g/cm<sup>3</sup></td>
+                        <th>Electronegativitate</th>
+                        <td>1,6</td>
+                        <th>Culoare</th>
+                        <td>alb-argintiu</td>
+                    </tr>
+                    <tr>
+                        <th>Bloc, grupă, perioadă</th>
+                        <td>d, 5, 5</td>
+                        <th>Număr de oxidare</th>
+                        <td>III, IV, V</td>
+                        <th>Volum molar</th>
+                        <td>10,87 cm<sup>3</sup>/mol</td>
+                    </tr>
+                </table>
+                <div class="discovery">
+                    <h3 class="subtitle">Descoperire</h3>
+                    <hr>
+                    <p class="disc-info">
+                        Niobiul a fost descoperit în 1801 de omul de știință englez Charles Hatchett. Acesta a fost găsit într-un minereu american care a fost trimis în Anglia cu mai bine 
+                        de un secol mai devreme de către John Winthrop, primul guvernator al statului Connecticut.
+                    </p>
+                </div>
+                <div class="uses"> 
+                    <h3 class="subtitle">Folosință</h3>
+                    <hr>
+                    <ul class="uses-info">
+                       <li>Niobiul se folosește cu fier și alte elemente în aliaje de oțel inoxidabil și, de asemenea, în aliaje cu o varietate de metale neferoase, cum ar fi zirconiul.</li>
+                       <li>Aliajele de niobiu sunt puternice și sunt adesea utilizate în construcția conductelor.</li>
+                       <li>Metalul este utilizat în superaliaje pentru motoare cu jet și echipamente rezistente la căldură.</li>
+                       <li>Niobiul este folosit și pentru bijuterii. La temperaturi criogenice, niobiul este un superconductor.</li>
+                    </ul>
+                </div>
+                <div class="fun-facts">
+                    <h3 class="subtitle">Fun Facts</h3>
+                    <hr>
+                    <ul class="facts-info">
+                        <li>Aliajele de azot produc, de asemenea, un oțel extrem de specializat, care este folosit pentru a crea conducte de gaze.</li>
+                        <li>De asemenea, are cea mai mare adâncime de penetrare magnetică dintre toate elementele cunoscute.</li>
+                        <li>Niobiul este folosit chiar și în confecționarea bijuteriilor datorită nivelului său scăzut de toxicitate.</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <footer>
+            <div class="footer">
+                <h3 class="footer-title">Contact:</h3>
+                <form action="">
+                    <label for="first-name">Prenume:</label><br>
+                    <input type="text" id="first-name" name="first-name" placeholder="Prenume" required><br>
+                    <label for="last-name">Nume:</label><br>
+                    <input type="text" id="last-name" name="last-name" placeholder="Nume" required><br>
+                    <label for="email-address">Adresă de email:</label><br>
+                    <input type="email" id="email-address" name="email-address" placeholder="Email" required><br>
+                    <label for="message">Mesaj:</label><br>
+                    <textarea name="message" id="message" cols="30" rows="10" placeholder="Mesaje, întrebări, păreri, etc." required></textarea><br><br>
+                    <input type="submit" value="Trimite">
+                </form>
+            </div>
+        </footer>
+    </body>
+</html>

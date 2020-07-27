@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="ro-RO">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <script src="https://kit.fontawesome.com/6b95d4e239.js" crossorigin="anonymous"></script>
+        <link href='https://fonts.googleapis.com/css?family=Lemonada' rel='stylesheet'>
+        <link rel="stylesheet" type="text/css" href="layout.css">   
+        <link rel="stylesheet" type="text/css" href="element.css">        
+        <title>GeNiUS</title>
+    </head>
+    <body>
+        <header>
+            <div class="header">
+                <h1 id="title">GeNiUS</h1>
+                <h3 id="subtitle">Germaniu-Nichel-Uraniu-Sulf</h3>
+                <h4 id="subtitle">Chemistry is FUN</h4>
+            </div>
+        </header>
+        <nav class="menu">
+            <button class="back" onclick="history.back()"><i class="fas fa-arrow-circle-left"></i></button>
+            <button class="back" onclick="history.forward()"><i class="fas fa-arrow-circle-right"></i></button>
+            <a class="menu-item" href="home.html"><i class="fas fa-home"></i>Acasă</a>
+            <a class="menu-item active" href="table.html"><i class="fas fa-atom"></i>Tabelul periodic</a>
+            <a class="menu-item" href="quizz.html"><i class="fas fa-book-open"></i>Quizz-uri</a>
+            <a class="menu-item" href="dictionary.html"><i class="fas fa-book"></i>Dicționar de termeni</a>
+        </nav>
+        <div class="main-container">
+            <h2 class="elm-title">Iridiu</h2>
+            <div class="info">
+                <table>
+                    <caption>Proprietăți</caption>
+                    <tr>
+                        <th colspan="2">Informații generale</th>
+                        <th colspan="2">Proprietăți chimice</th>
+                        <th colspan="2">Proprietăți fizice</th>
+                    </tr>
+                    <tr>
+                        <th>Denumire</th>
+                        <td>Iridiu</td>
+                        <th>Număr atomic</th>
+                        <td>77</td>
+                        <th>Stare de agregare</th>
+                        <td>solid</td>
+                    </tr>
+                    <tr>
+                        <th>Simbol</th>
+                        <td>Ir</td>
+                        <th>Masă atomică</th>
+                        <td>192,2</td>
+                        <th>Punct de topire</th>
+                        <td>2447°C</td>
+                    </tr>
+                    <tr>
+                        <th>Serie chimică</th>
+                        <td>metal de tranziție</td>
+                        <th>Configurație electronică</th>
+                        <td>4f<sup>14</sup> 5d<sup>7</sup> 6s<sup>2</sup></td>
+                        <th>Punct de fierbere</th>
+                        <td>4430°C</td>
+                    </tr>
+                    <tr>
+                        <th>Densitate</th>
+                        <td>22,56 g/cm<sup>3</sup></td>
+                        <th>Electronegativitate</th>
+                        <td>2,2</td>
+                        <th>Culoare</th>
+                        <td>alb-argintiu</td>
+                    </tr>
+                    <tr>
+                        <th>Bloc, grupă, perioadă</th>
+                        <td>d, 9, 6</td>
+                        <th>Număr de oxidare</th>
+                        <td>II, III, IV</td>
+                        <th>Volum molar</th>
+                        <td>8,54 cm<sup>3</sup>/mol</td>
+                    </tr>
+                </table>
+                <div class="discovery">
+                    <h3 class="subtitle">Descoperire</h3>
+                    <hr>
+                    <p class="disc-info">
+                        Iridiul a fost descoperit în 1803 de chimistul englez Smithson Tennant din Londra. El l-a găsit în reziduul rămas atunci când platina brută a fost dizolvată în 
+                        aqua regia (un amestec de acid clorhidric și acid azotic). Smithson Tennant a descoperit și osmiul în același timp. Numele Iridiului provine de la cuvântul latin 
+                        „iris”, care înseamnă curcubeu, deoarece multe dintre sărurile sale sunt foarte colorate.
+                    </p>
+                </div>
+                <div class="uses"> 
+                    <h3 class="subtitle">Folosință</h3>
+                    <hr>
+                    <ul class="uses-info">
+                       <li>Principala utilizare a Iridiului este ca agent de întărire pentru aliajele de platină.</li>
+                       <li>Iridiul este utilizat la confecționarea creuzetelor și a altor echipamente care sunt utilizate la temperaturi ridicate.</li>
+                       <li>De asemenea, este utilizat pentru a realiza contacte electrice de mare putere.</li>
+                       <li>Izotopii radioactivi ai iridiului sunt folosiți în radioterapia pentru tratamentul cancerului.</li>
+                    </ul>
+                </div>
+                <div class="fun-facts">
+                    <h3 class="subtitle">Fun Facts</h3>
+                    <hr>
+                    <ul class="facts-info">
+                        <li>Iridiul este unul dintre cele mai rare elemente din scoarța terestră. Se crede că este disponibil la 0,001 părți pe milion.</li>
+                        <li>Cel mai mare meteorit care s-a debarcat în America de Nord, meteoritul Willamette, conținea o concentrație extrem de vastă de iridiu, 4,7 părți pe milion.</li>
+                        <li>Iridiul a fost responsabil pentru Ipoteza Alvarez, cum că un obiect masiv s-a ciocnit cu Pământul, provocând dispariția majorității speciilor în urmă cu 65 de milioane
+                             de ani.</li>
+                        <li>O teorie despre abundența scăzută a Iridiului este aceea că densitatea ridicată și proprietățile sale siderofile au determinat-o să se scufunde sub crusta Pământului.</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <footer>
+            <div class="footer">
+                <h3 class="footer-title">Contact:</h3>
+                <form action="">
+                    <label for="first-name">Prenume:</label><br>
+                    <input type="text" id="first-name" name="first-name" placeholder="Prenume" required><br>
+                    <label for="last-name">Nume:</label><br>
+                    <input type="text" id="last-name" name="last-name" placeholder="Nume" required><br>
+                    <label for="email-address">Adresă de email:</label><br>
+                    <input type="email" id="email-address" name="email-address" placeholder="Email" required><br>
+                    <label for="message">Mesaj:</label><br>
+                    <textarea name="message" id="message" cols="30" rows="10" placeholder="Mesaje, întrebări, păreri, etc." required></textarea><br><br>
+                    <input type="submit" value="Trimite">
+                </form>
+            </div>
+        </footer>
+    </body>
+</html>

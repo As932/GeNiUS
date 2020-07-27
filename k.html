@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="ro-RO">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <script src="https://kit.fontawesome.com/6b95d4e239.js" crossorigin="anonymous"></script>
+        <link href='https://fonts.googleapis.com/css?family=Lemonada' rel='stylesheet'>
+        <link rel="stylesheet" type="text/css" href="layout.css">   
+        <link rel="stylesheet" type="text/css" href="element.css">        
+        <title>GeNiUS</title>
+    </head>
+    <body>
+        <header>
+            <div class="header">
+                <h1 id="title">GeNiUS</h1>
+                <h3 id="subtitle">Germaniu-Nichel-Uraniu-Sulf</h3>
+                <h4 id="subtitle">Chemistry is FUN</h4>
+            </div>
+        </header>
+        <nav class="menu">
+            <button class="back" onclick="history.back()"><i class="fas fa-arrow-circle-left"></i></button>
+            <button class="back" onclick="history.forward()"><i class="fas fa-arrow-circle-right"></i></button>
+            <a class="menu-item" href="home.html"><i class="fas fa-home"></i>Acasă</a>
+            <a class="menu-item active" href="table.html"><i class="fas fa-atom"></i>Tabelul periodic</a>
+            <a class="menu-item" href="quizz.html"><i class="fas fa-book-open"></i>Quizz-uri</a>
+            <a class="menu-item" href="dictionary.html"><i class="fas fa-book"></i>Dicționar de termeni</a>
+        </nav>
+        <div class="main-container">
+            <h2 class="elm-title">Potasiu</h2>
+            <div class="info">
+                <table>
+                    <caption>Proprietăți</caption>
+                    <tr>
+                        <th colspan="2">Informații generale</th>
+                        <th colspan="2">Proprietăți chimice</th>
+                        <th colspan="2">Proprietăți fizice</th>
+                    </tr>
+                    <tr>
+                        <th>Denumire</th>
+                        <td>Potasiu</td>
+                        <th>Număr atomic</th>
+                        <td>19</td>
+                        <th>Stare de agregare</th>
+                        <td>solid</td>
+                    </tr>
+                    <tr>
+                        <th>Simbol</th>
+                        <td>K</td>
+                        <th>Masă atomică</th>
+                        <td>39,1</td>
+                        <th>Punct de topire</th>
+                        <td>63,4°C</td>
+                    </tr>
+                    <tr>
+                        <th>Serie chimică</th>
+                        <td>metal alcalin</td>
+                        <th>Configurație electronică</th>
+                        <td>4s<sup>1</sup></td>
+                        <th>Punct de fierbere</th>
+                        <td>758,9°C</td>
+                    </tr>
+                    <tr>
+                        <th>Densitate</th>
+                        <td>856 kg/m<sup>3</sup></td>
+                        <th>Electronegativitate</th>
+                        <td>0,9</td>
+                        <th>Culoare</th>
+                        <td>alb-argintiu</td>
+                    </tr>
+                    <tr>
+                        <th>Bloc, grupă, perioadă</th>
+                        <td>s, 1, 4</td>
+                        <th>Număr de oxidare</th>
+                        <td>I</td>
+                        <th>Volum molar</th>
+                        <td>45,94x10<sup>-6</up> m<sup>3</sup>/kmol</td>
+                    </tr>
+                </table>
+                <div class="discovery">
+                    <h3 class="subtitle">Descoperire</h3>
+                    <hr>
+                    <p class="disc-info">
+                        Potasiul metalic a fost descoperit în anul 1807 în Anglia de către Sir Humphry Davy, care a obținut potasiul din potasa caustică, prin electroliza sării topite 
+                        utilizând nou-descoperita pilă voltaică. Înainte de secolul al XVII-lea nu se putea face o distincție clară între potasiu și sodiu datorită proprietăților 
+                        fizico-chimice foarte asemănătoare ale acestora. A fost primul metal izolat prin metoda electrolitică. Davy a extras sodiul printr-o metodă similară, demonstrând
+                        astfel diferența dintre elementele chimice.
+                    </p>
+                </div>
+                <div class="uses"> 
+                    <h3 class="subtitle">Folosință</h3>
+                    <hr>
+                    <ul class="uses-info">
+                        <li>Cea mai mare cerere de compuși din potasiu este în îngrășăminte.</li>
+                        <li>Multe alte săruri de potasiu au o importanță deosebită, inclusiv nitratul, carbonatul, clorura, bromura, cianura și sulfatul. </li>
+                        <li>Carbonatul de potasiu este utilizat la fabricarea sticlei.</li>
+                        <li> Hidroxidul de potasiu este utilizat pentru a face detergent și săpun lichid.</li>
+                        <li>Clorura de potasiu este utilizată în farmaceutice și în picături de soluție salină.</li>
+                    </ul>
+                </div>
+                <div class="fun-facts">
+                    <h3 class="subtitle">Fun Facts</h3>
+                    <hr>
+                    <ul class="facts-info">
+                        <li>Potasiul este al șaptelea cel mai abundent element de pe Pământ.</li>
+                        <li>Reprezintă aproximativ 1,5% din masa scoarței terestre.</li>
+                        <li>Sărurile sale ard cu o culoare violet deschis.</li>
+                        <li>Deoarece este vital pentru celulele plantelor, culturile epuizează cu ușurință potasiul din sol. Din acest motiv, una dintre principalele industrii care
+                            necesită potasiu este industria de îngrășăminte.</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <footer>
+            <div class="footer">
+                <h3 class="footer-title">Contact:</h3>
+                <form action="">
+                    <label for="first-name">Prenume:</label><br>
+                    <input type="text" id="first-name" name="first-name" placeholder="Prenume" required><br>
+                    <label for="last-name">Nume:</label><br>
+                    <input type="text" id="last-name" name="last-name" placeholder="Nume" required><br>
+                    <label for="email-address">Adresă de email:</label><br>
+                    <input type="email" id="email-address" name="email-address" placeholder="Email" required><br>
+                    <label for="message">Mesaj:</label><br>
+                    <textarea name="message" id="message" cols="30" rows="10" placeholder="Mesaje, întrebări, păreri, etc." required></textarea><br><br>
+                    <input type="submit" value="Trimite">
+                </form>
+            </div>
+        </footer>
+    </body>
+</html>

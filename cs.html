@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="ro-RO">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <script src="https://kit.fontawesome.com/6b95d4e239.js" crossorigin="anonymous"></script>
+        <link href='https://fonts.googleapis.com/css?family=Lemonada' rel='stylesheet'>
+        <link rel="stylesheet" type="text/css" href="layout.css">   
+        <link rel="stylesheet" type="text/css" href="element.css">        
+        <title>GeNiUS</title>
+    </head>
+    <body>
+        <header>
+            <div class="header">
+                <h1 id="title">GeNiUS</h1>
+                <h3 id="subtitle">Germaniu-Nichel-Uraniu-Sulf</h3>
+                <h4 id="subtitle">Chemistry is FUN</h4>
+            </div>
+        </header>
+        <nav class="menu">
+            <button class="back" onclick="history.back()"><i class="fas fa-arrow-circle-left"></i></button>
+            <button class="back" onclick="history.forward()"><i class="fas fa-arrow-circle-right"></i></button>
+            <a class="menu-item" href="home.html"><i class="fas fa-home"></i>Acasă</a>
+            <a class="menu-item active" href="table.html"><i class="fas fa-atom"></i>Tabelul periodic</a>
+            <a class="menu-item" href="quizz.html"><i class="fas fa-book-open"></i>Quizz-uri</a>
+            <a class="menu-item" href="dictionary.html"><i class="fas fa-book"></i>Dicționar de termeni</a>
+        </nav>
+        <div class="main-container">
+            <h2 class="elm-title">Cesiu</h2>
+            <div class="info">
+                <table>
+                    <caption>Proprietăți</caption>
+                    <tr>
+                        <th colspan="2">Informații generale</th>
+                        <th colspan="2">Proprietăți chimice</th>
+                        <th colspan="2">Proprietăți fizice</th>
+                    </tr>
+                    <tr>
+                        <th>Denumire</th>
+                        <td>Cesiu</td>
+                        <th>Număr atomic</th>
+                        <td>55</td>
+                        <th>Stare de agregare</th>
+                        <td>solid</td>
+                    </tr>
+                    <tr>
+                        <th>Simbol</th>
+                        <td>Cs</td>
+                        <th>Masă atomică</th>
+                        <td>132,9</td>
+                        <th>Punct de topire</th>
+                        <td>28,9°C</td>
+                    </tr>
+                    <tr>
+                        <th>Serie chimică</th>
+                        <td>metal alcalin</td>
+                        <th>Configurație electronică</th>
+                        <td>6s<sup>1</sup></td>
+                        <th>Punct de fierbere</th>
+                        <td>670°C</td>
+                    </tr>
+                    <tr>
+                        <th>Densitate</th>
+                        <td>1,873 g/cm<sup>3</sup></td>
+                        <th>Electronegativitate</th>
+                        <td>0,79</td>
+                        <th>Culoare</th>
+                        <td>galben / argintiu</td>
+                    </tr>
+                    <tr>
+                        <th>Bloc, grupă, perioadă</th>
+                        <td>s, 1, 6</td>
+                        <th>Număr de oxidare</th>
+                        <td>I</td>
+                        <th>Volum molar</th>
+                        <td>71,07 cm<sup>3</sup>/mol</td>
+                    </tr>
+                </table>
+                <div class="discovery">
+                    <h3 class="subtitle">Descoperire</h3>
+                    <hr>
+                    <p class="disc-info">
+                        Cesiul a fost primul element descoperit folosind un spectroscop. A fost găsit de Robert Bunsen și Gustav Kirchhoff în 1860 în Heidelberg, Germania, când au 
+                        analizat spectrul apei minerale. Cu un an mai devreme, Bunsen și Kirchhoff au dezvoltat spectroscopul. Dispozitivul se baza pe o prismă care separa lumina dintr-o 
+                        flacără într-un curcubeu de culori.
+                    </p>
+                </div>
+                <div class="uses"> 
+                    <h3 class="subtitle">Folosință</h3>
+                    <hr>
+                    <ul class="uses-info">
+                       <li>
+                           Cesiul este utilizat în ceasurile atomice, care sunt incredibil de precise. NIST-F2, standardul principal de timp și frecvență din America, este un ceas atomic 
+                           dezvoltat în laboratoarele NIST din Boulder, Colorado. NIST-F2 contribuie la grupul internațional de ceasuri atomice care definesc Timpul Universal Coordonat (UTC), 
+                           ora oficială a lumii. Pe măsură ce oamenii de știință continuă să-și îmbunătățească tehnologia, incertitudinea în măsurarea timpului NIST-F1 se îmbunătățește 
+                           continuu. În prezent, nu câștigă și nici nu pierde o secundă la 300 de milioane de ani.
+                       </li>
+                       <li>Cesiul este, de asemenea, utilizat în celulele fotoelectrice și pe post de catalizator în hidrogenarea compușilor organici. Metalul se folosește ca „getter” în tuburile 
+                           de vid.</li>
+                    </ul>
+                </div>
+                <div class="fun-facts">
+                    <h3 class="subtitle">Fun Facts</h3>
+                    <hr>
+                    <ul class="facts-info">
+                        <li>Sistemul internațional de măsurători bazează definiția formală a unei secunde pe durata de timp necesară pentru cesiu pentru a absorbi ciclurile de lumină.</li>
+                        <li>Este un element rar, prezent în scoarța pământului la aproximativ trei părți pe milion.</li>
+                        <li>Cesiul este piroforic și arde spontan în aer.</li>
+                        <li>Cesiul explodează imediat în apă.</li>   
+                        <li>Este considerat și manipulat ca un material periculos.</li> 
+                        <li>Cesiul joacă un rol vital în producția de energie utilizabilă.</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <footer>
+            <div class="footer">
+                <h3 class="footer-title">Contact:</h3>
+                <form action="">
+                    <label for="first-name">Prenume:</label><br>
+                    <input type="text" id="first-name" name="first-name" placeholder="Prenume" required><br>
+                    <label for="last-name">Nume:</label><br>
+                    <input type="text" id="last-name" name="last-name" placeholder="Nume" required><br>
+                    <label for="email-address">Adresă de email:</label><br>
+                    <input type="email" id="email-address" name="email-address" placeholder="Email" required><br>
+                    <label for="message">Mesaj:</label><br>
+                    <textarea name="message" id="message" cols="30" rows="10" placeholder="Mesaje, întrebări, păreri, etc." required></textarea><br><br>
+                    <input type="submit" value="Trimite">
+                </form>
+            </div>
+        </footer>
+    </body>
+</html>

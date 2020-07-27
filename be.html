@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="ro-RO">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <script src="https://kit.fontawesome.com/6b95d4e239.js" crossorigin="anonymous"></script>
+        <link href='https://fonts.googleapis.com/css?family=Lemonada' rel='stylesheet'>
+        <link rel="stylesheet" type="text/css" href="layout.css">   
+        <link rel="stylesheet" type="text/css" href="element.css">        
+        <title>GeNiUS</title>
+    </head>
+    <body>
+        <header>
+            <div class="header">
+                <h1 id="title">GeNiUS</h1>
+                <h3 id="subtitle">Germaniu-Nichel-Uraniu-Sulf</h3>
+                <h4 id="subtitle">Chemistry is FUN</h4>
+            </div>
+        </header>
+        <nav class="menu">
+            <button class="back" onclick="history.back()"><i class="fas fa-arrow-circle-left"></i></button>
+            <button class="back" onclick="history.forward()"><i class="fas fa-arrow-circle-right"></i></button>
+            <a class="menu-item" href="home.html"><i class="fas fa-home"></i>Acasă</a>
+            <a class="menu-item active" href="table.html"><i class="fas fa-atom"></i>Tabelul periodic</a>
+            <a class="menu-item" href="quizz.html"><i class="fas fa-book-open"></i>Quizz-uri</a>
+            <a class="menu-item" href="dictionary.html"><i class="fas fa-book"></i>Dicționar de termeni</a>
+        </nav>
+        <div class="main-container">
+            <h2 class="elm-title">Beriliu</h2>
+            <div class="info">
+                <table>
+                    <caption>Proprietăți</caption>
+                    <tr>
+                        <th colspan="2">Informații generale</th>
+                        <th colspan="2">Proprietăți chimice</th>
+                        <th colspan="2">Proprietăți fizice</th>
+                    </tr>
+                    <tr>
+                        <th>Denumire</th>
+                        <td>Beriliu</td>
+                        <th>Număr atomic</th>
+                        <td>4</td>
+                        <th>Stare de agregare</th>
+                        <td>solid</td>
+                    </tr>
+                    <tr>
+                        <th>Simbol</th>
+                        <td>Be</td>
+                        <th>Masă atomică</th>
+                        <td>9,012</td>
+                        <th>Punct de topire</th>
+                        <td>1287°C</td>
+                    </tr>
+                    <tr>
+                        <th>Serie chimică</th>
+                        <td>metal alcalino-pământos</td>
+                        <th>Configurație electronică</th>
+                        <td>2s<sup>2</sup></td>
+                        <th>Punct de fierbere</th>
+                        <td>2469°C</td>
+                    </tr>
+                    <tr>
+                        <th>Densitate</th>
+                        <td>1848 kg/m<sup>3</sup></td>
+                        <th>Electronegativitate</th>
+                        <td>1,5</td>
+                        <th>Culoare</th>
+                        <td>alb-gri metalic</td>
+                    </tr>
+                    <tr>
+                        <th>Bloc, grupă, perioadă</th>
+                        <td>s, 2, 2</td>
+                        <th>Număr de oxidare</th>
+                        <td>II</td>
+                        <th>Volum molar</th>
+                        <td>4,85×10<sup>-6</up> m<sup>3</sup>/kmol</td>
+                    </tr>
+                </table>
+                <div class="discovery">
+                    <h3 class="subtitle">Descoperire</h3>
+                    <hr>
+                    <p class="disc-info">
+                        Faptul că mineralele de beriliu și smarald ar putea conține un element chimic necunoscut a fost ceea ce l-a determinat pe minerologul francez Abbe Rene-Just Hauy și 
+                        pe compatriotul său Nicholas Louis Vauquelin să le analizeze. Au făcut acest lucru, iar pe 15 februarie 1798 și-au prezentat rezultatele la Academia Franceză, anunțând
+                        faptul că mineralele conțineau un nou element chimic, cu toate că nu au reușit să-l separe de oxidul său. Metalul a fost izolat în 1828 de către Friedrich Wöller la 
+                        Berlin, Germania și independent de Antoine-Alexandere-Brutus Bussy la Paris, Franța, ambii realizând extracția din clorură de beriliu în reacție cu potasiul.
+                    </p>
+                </div>
+                <div class="uses"> 
+                    <h3 class="subtitle">Folosință</h3>
+                    <hr>
+                    <ul class="uses-info">
+                        <li>Beriliul se folosește în aliaje cu cupru sau nichel pentru a realiza giroscopuri, arcuri, electrozi de sudare și instrumente care nu scânteie. Amestecarea 
+                            beriliului cu aceste metale crește conductivitatea electrică și termică a acestora.
+                        </li>
+                        <li>Alte aliaje de beriliu sunt utilizate ca materiale structurale pentru aeronave de mare viteză, rachete, nave spațiale și sateliți de comunicații.</li>
+                        <li>Beriliul este relativ transparent la razele X, astfel încât folia de beriliu ultra-subțire își găsește utilizarea în litografia cu raze X. Beriliul este utilizat
+                            și în reactoarele nucleare ca reflector sau moderator al neutronilor.</li>
+                    </ul>
+                </div>
+                <div class="fun-facts">
+                    <h3 class="subtitle">Fun Facts</h3>
+                    <hr>
+                    <ul class="facts-info">
+                        <li>Este un metal dur, dar este fragil la temperatura camerei.</li>
+                        <li>Sărurile de beriliu au un gust dulce, iar elementul a fost numit odată glucină datorită aromei sale.</li>
+                        <li>Beriliul se găsește în scoarța terestră, dar numai două până la șase părți pe milion.</li>
+                        <li>Există urme de beriliu în atmosferă și în apa mării, cu o concentrație mai mare întâlnită în fluxuri.</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <footer>
+            <div class="footer">
+                <h3 class="footer-title">Contact:</h3>
+                <form action="">
+                    <label for="first-name">Prenume:</label><br>
+                    <input type="text" id="first-name" name="first-name" placeholder="Prenume" required><br>
+                    <label for="last-name">Nume:</label><br>
+                    <input type="text" id="last-name" name="last-name" placeholder="Nume" required><br>
+                    <label for="email-address">Adresă de email:</label><br>
+                    <input type="email" id="email-address" name="email-address" placeholder="Email" required><br>
+                    <label for="message">Mesaj:</label><br>
+                    <textarea name="message" id="message" cols="30" rows="10" placeholder="Mesaje, întrebări, păreri, etc." required></textarea><br><br>
+                    <input type="submit" value="Trimite">
+                </form>
+            </div>
+        </footer>
+    </body>
+</html>

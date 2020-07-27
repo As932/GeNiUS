@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="ro-RO">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <script src="https://kit.fontawesome.com/6b95d4e239.js" crossorigin="anonymous"></script>
+        <link href='https://fonts.googleapis.com/css?family=Lemonada' rel='stylesheet'>
+        <link rel="stylesheet" type="text/css" href="layout.css">   
+        <link rel="stylesheet" type="text/css" href="element.css">        
+        <title>GeNiUS</title>
+    </head>
+    <body>
+        <header>
+            <div class="header">
+                <h1 id="title">GeNiUS</h1>
+                <h3 id="subtitle">Germaniu-Nichel-Uraniu-Sulf</h3>
+                <h4 id="subtitle">Chemistry is FUN</h4>
+            </div>
+        </header>
+        <nav class="menu">
+            <button class="back" onclick="history.back()"><i class="fas fa-arrow-circle-left"></i></button>
+            <button class="back" onclick="history.forward()"><i class="fas fa-arrow-circle-right"></i></button>
+            <a class="menu-item" href="home.html"><i class="fas fa-home"></i>Acasă</a>
+            <a class="menu-item active" href="table.html"><i class="fas fa-atom"></i>Tabelul periodic</a>
+            <a class="menu-item" href="quizz.html"><i class="fas fa-book-open"></i>Quizz-uri</a>
+            <a class="menu-item" href="dictionary.html"><i class="fas fa-book"></i>Dicționar de termeni</a>
+        </nav>
+        <div class="main-container">
+            <h2 class="elm-title">Crom</h2>
+            <div class="info">
+                <table>
+                    <caption>Proprietăți</caption>
+                    <tr>
+                        <th colspan="2">Informații generale</th>
+                        <th colspan="2">Proprietăți chimice</th>
+                        <th colspan="2">Proprietăți fizice</th>
+                    </tr>
+                    <tr>
+                        <th>Denumire</th>
+                        <td>Crom</td>
+                        <th>Număr atomic</th>
+                        <td>24</td>
+                        <th>Stare de agregare</th>
+                        <td>solid</td>
+                    </tr>
+                    <tr>
+                        <th>Simbol</th>
+                        <td>Cr</td>
+                        <th>Masă atomică</th>
+                        <td>51,99</td>
+                        <th>Punct de topire</th>
+                        <td>1857°C</td>
+                    </tr>
+                    <tr>
+                        <th>Serie chimică</th>
+                        <td>metal de tranziție</td>
+                        <th>Configurație electronică</th>
+                        <td>3d<sup>5</sup> 4s<sup>1</sup></td>
+                        <th>Punct de fierbere</th>
+                        <td>2672°C</td>
+                    </tr>
+                    <tr>
+                        <th>Densitate</th>
+                        <td>7139 kg/m<sup>3</sup></td>
+                        <th>Electronegativitate</th>
+                        <td>1,66</td>
+                        <th>Culoare</th>
+                        <td>alb-cenușiu</td>
+                    </tr>
+                    <tr>
+                        <th>Bloc, grupă, perioadă</th>
+                        <td>d, 6, 4</td>
+                        <th>Număr de oxidare</th>
+                        <td>II, III, VI</td>
+                        <th>Volum molar</th>
+                        <td>7,23 m<sup>3</sup>/kmol</td>
+                    </tr>
+                </table>
+                <div class="discovery">
+                    <h3 class="subtitle">Descoperire</h3>
+                    <hr>
+                    <p class="disc-info">
+                        Cromul a fost descoperit în 1780 de chimistul francez Nicolas Louis Vauquelin la Paris. El a descoperit elementul dintr-un eșantion mineral de „plumb roșu siberian”
+                         - acum cunoscut sub numele de crocoit (cromat) de plumb. El a fiert mineralul zdrobit cu carbonat de potasiu pentru a produce carbonatul de plumb și o soluție galbenă 
+                        de sare de potasiu de acid cromic. Vauquelin a fost convins prin alte experimente că a găsit un metal nou. În 1781 a reușit să izoleze metalul. 
+                        Inițial a îndepărtat plumbul din proba minerală prin precipitare cu acid clorhidric. Vauquelin a obținut apoi oxidul prin evaporare și, în final, a izolat cromul prin 
+                        încălzirea oxidului într-un cuptor cu cărbune.
+                    </p>
+                </div>
+                <div class="uses"> 
+                    <h3 class="subtitle">Folosință</h3>
+                    <hr>
+                    <ul class="uses-info">
+                        <li>Cromul este utilizat în oțel inoxidabil și alte aliaje. Placarea cu crom, de exemplu pe mașini și biciclete, produce un finisaj neted, argintiu, foarte rezistent la coroziune.</li>
+                        <li>Metalul este de asemenea utilizat pe scară largă pe post de catalizator.</li>
+                        <li>Compușii de crom sunt apreciați ca pigmenți pentru culorile lor vii: verde, galben, roșu și portocaliu.</li>
+                    </ul>
+                </div>
+                <div class="fun-facts">
+                    <h3 class="subtitle">Fun Facts</h3>
+                    <hr>
+                    <ul class="facts-info">
+                        <li>Încă din anii 1700, cromul a fost folosit pentru a crea pigmenți foarte căutați, în special roșu și galben.</li>
+                        <li>85% din cromul produs este orientat către crearea de aliaje metalice.</li>
+                        <li>Pe plan industrial, se extrag anual aproximativ patru milioane și jumătate de tone de crom.</li>
+                        <li>Cromul (III) este cel care conferă rubinelor naturale culoarea lor roșie.</li>
+                        <li>Datorită proprietăților de transport celular, doar urmele de crom intră în celulele organismelor vii.</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <footer>
+            <div class="footer">
+                <h3 class="footer-title">Contact:</h3>
+                <form action="">
+                    <label for="first-name">Prenume:</label><br>
+                    <input type="text" id="first-name" name="first-name" placeholder="Prenume" required><br>
+                    <label for="last-name">Nume:</label><br>
+                    <input type="text" id="last-name" name="last-name" placeholder="Nume" required><br>
+                    <label for="email-address">Adresă de email:</label><br>
+                    <input type="email" id="email-address" name="email-address" placeholder="Email" required><br>
+                    <label for="message">Mesaj:</label><br>
+                    <textarea name="message" id="message" cols="30" rows="10" placeholder="Mesaje, întrebări, păreri, etc." required></textarea><br><br>
+                    <input type="submit" value="Trimite">
+                </form>
+            </div>
+        </footer>
+    </body>
+</html>
