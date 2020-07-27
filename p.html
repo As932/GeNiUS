@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="ro-RO">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <script src="https://kit.fontawesome.com/6b95d4e239.js" crossorigin="anonymous"></script>
+        <link href='https://fonts.googleapis.com/css?family=Lemonada' rel='stylesheet'>
+        <link rel="stylesheet" type="text/css" href="layout.css">   
+        <link rel="stylesheet" type="text/css" href="element.css">        
+        <title>GeNiUS</title>
+    </head>
+    <body>
+        <header>
+            <div class="header">
+                <h1 id="title">GeNiUS</h1>
+                <h3 id="subtitle">Germaniu-Nichel-Uraniu-Sulf</h3>
+                <h4 id="subtitle">Chemistry is FUN</h4>
+            </div>
+        </header>
+        <nav class="menu">
+            <button class="back" onclick="history.back()"><i class="fas fa-arrow-circle-left"></i></button>
+            <button class="back" onclick="history.forward()"><i class="fas fa-arrow-circle-right"></i></button>
+            <a class="menu-item" href="home.html"><i class="fas fa-home"></i>Acasă</a>
+            <a class="menu-item active" href="table.html"><i class="fas fa-atom"></i>Tabelul periodic</a>
+            <a class="menu-item" href="quizz.html"><i class="fas fa-book-open"></i>Quizz-uri</a>
+            <a class="menu-item" href="dictionary.html"><i class="fas fa-book"></i>Dicționar de termeni</a>
+        </nav>
+        <div class="main-container">
+            <h2 class="elm-title">Fosfor</h2>
+            <div class="info">
+                <table>
+                    <caption>Proprietăți</caption>
+                    <tr>
+                        <th colspan="2">Informații generale</th>
+                        <th colspan="2">Proprietăți chimice</th>
+                        <th colspan="2">Proprietăți fizice</th>
+                    </tr>
+                    <tr>
+                        <th>Denumire</th>
+                        <td>Fosfor</td>
+                        <th>Număr atomic</th>
+                        <td>15</td>
+                        <th>Stare de agregare</th>
+                        <td>solid</td>
+                    </tr>
+                    <tr>
+                        <th>Simbol</th>
+                        <td>P</td>
+                        <th>Masă atomică</th>
+                        <td>30,97</td>
+                        <th>Punct de topire</th>
+                        <td>44,2°C</td>
+                    </tr>
+                    <tr>
+                        <th>Serie chimică</th>
+                        <td>nemetal</td>
+                        <th>Configurație electronică</th>
+                        <td>1s<sup>2</sup> 2s<sup>2</sup> 2p<sup>6</sup> 3s<sup>2</sup> 3p<sup>3</sup></td>
+                        <th>Punct de fierbere</th>
+                        <td>280,5°C</td>
+                    </tr>
+                    <tr>
+                        <th>Densitate</th>
+                        <td>1,82 g/cm<sup>3</sup></td>
+                        <th>Electronegativitate</th>
+                        <td>2,1</td>
+                        <th>Culoare</th>
+                        <td>galben pal</td>
+                    </tr>
+                    <tr>
+                        <th>Bloc, grupă, perioadă</th>
+                        <td>p, 15, 3</td>
+                        <th>Număr de oxidare</th>
+                        <td>III, V</td>
+                        <th>Volum molar</th>
+                        <td>17,0 cm<sup>3</sup>/mol</td>
+                    </tr>
+                </table>
+                <div class="discovery">
+                    <h3 class="subtitle">Descoperire</h3>
+                    <hr>
+                    <p class="disc-info">
+                        Hennig Brand a descoperit fosforul în 1669, la Hamburg, Germania, pregătindu-l din urină. (Urina conține în mod natural cantități considerabile de fosfați dizolvați.)
+                        Brand a numit substanța pe care o descoperise „foc rece”, deoarece era luminos, strălucitor în întuneric.
+                    </p>
+                </div>
+                <div class="uses"> 
+                    <h3 class="subtitle">Folosință</h3>
+                    <hr>
+                    <ul class="uses-info">
+                        <li>Fosforul este un nutrient vital al plantelor și utilizarea sa principală - prin compuși fosfat - este producerea de îngrășăminte. La fel cum există cicluri biologice de carbon și azot, există și un ciclu de fosfor.
+                        </li>
+                        <li>Fosforul este utilizat la fabricarea chibriturilor de siguranță (fosfor roșu), pirotehniei și a cojilor incendiare.</li>
+                        <li>Fosforul este folosit și la fabricarea oțelului și la producerea bronzului cu fosfor.
+                        </li>
+                        <li>Fosforul este utilizat pentru a realiza diode cu emisie de lumină (LED-uri).</li>
+                    </ul>
+                </div>
+                <div class="fun-facts">
+                    <h3 class="subtitle">Fun Facts</h3>
+                    <hr>
+                    <ul class="facts-info">
+                        <li>Fosforul alb este un solid puternic reactiv, ceros, alb-galben, transparent, cu fum acrid. Emite o strălucire verde slabă (luminiscență) în prezența oxigenului. 
+                            Este insolubil în apă, dar solubil în disulfură de carbon.</li>
+                        <li>Fosforul există în alte două forme alotrope principale: roșu și negru (sau violet).</li>
+                        <li>Fosforul roșu rezultă când fosforul alb este încălzit sau expus la lumina soarelui.</li>
+                        <li>Fosforul negru este alotropul cel mai puțin reactiv și are o structură asemănătoare cu grafit.</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <footer>
+            <div class="footer">
+                <h3 class="footer-title">Contact:</h3>
+                <form action="">
+                    <label for="first-name">Prenume:</label><br>
+                    <input type="text" id="first-name" name="first-name" placeholder="Prenume" required><br>
+                    <label for="last-name">Nume:</label><br>
+                    <input type="text" id="last-name" name="last-name" placeholder="Nume" required><br>
+                    <label for="email-address">Adresă de email:</label><br>
+                    <input type="email" id="email-address" name="email-address" placeholder="Email" required><br>
+                    <label for="message">Mesaj:</label><br>
+                    <textarea name="message" id="message" cols="30" rows="10" placeholder="Mesaje, întrebări, păreri, etc." required></textarea><br><br>
+                    <input type="submit" value="Trimite">
+                </form>
+            </div>
+        </footer>
+    </body>
+</html>

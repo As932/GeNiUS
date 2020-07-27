@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="ro-RO">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <script src="https://kit.fontawesome.com/6b95d4e239.js" crossorigin="anonymous"></script>
+        <link href='https://fonts.googleapis.com/css?family=Lemonada' rel='stylesheet'>
+        <link rel="stylesheet" type="text/css" href="layout.css">   
+        <link rel="stylesheet" type="text/css" href="element.css">        
+        <title>GeNiUS</title>
+    </head>
+    <body>
+        <header>
+            <div class="header">
+                <h1 id="title">GeNiUS</h1>
+                <h3 id="subtitle">Germaniu-Nichel-Uraniu-Sulf</h3>
+                <h4 id="subtitle">Chemistry is FUN</h4>
+            </div>
+        </header>
+        <nav class="menu">
+            <button class="back" onclick="history.back()"><i class="fas fa-arrow-circle-left"></i></button>
+            <button class="back" onclick="history.forward()"><i class="fas fa-arrow-circle-right"></i></button>
+            <a class="menu-item" href="home.html"><i class="fas fa-home"></i>Acasă</a>
+            <a class="menu-item active" href="table.html"><i class="fas fa-atom"></i>Tabelul periodic</a>
+            <a class="menu-item" href="quizz.html"><i class="fas fa-book-open"></i>Quizz-uri</a>
+            <a class="menu-item" href="dictionary.html"><i class="fas fa-book"></i>Dicționar de termeni</a>
+        </nav>
+        <div class="main-container">
+            <h2 class="elm-title">Taliu</h2>
+            <div class="info">
+                <table>
+                    <caption>Proprietăți</caption>
+                    <tr>
+                        <th colspan="2">Informații generale</th>
+                        <th colspan="2">Proprietăți chimice</th>
+                        <th colspan="2">Proprietăți fizice</th>
+                    </tr>
+                    <tr>
+                        <th>Denumire</th>
+                        <td>Taliu</td>
+                        <th>Număr atomic</th>
+                        <td>81</td>
+                        <th>Stare de agregare</th>
+                        <td>solid</td>
+                    </tr>
+                    <tr>
+                        <th>Simbol</th>
+                        <td>Tl</td>
+                        <th>Masă atomică</th>
+                        <td>204,4</td>
+                        <th>Punct de topire</th>
+                        <td>304°C</td>
+                    </tr>
+                    <tr>
+                        <th>Serie chimică</th>
+                        <td>'alt metal'</td>
+                        <th>Configurație electronică</th>
+                        <td>4f<sup>14</sup> 5d<sup>10</sup> 6s<sup>2</sup> 6p<sup>1</sup></td>
+                        <th>Punct de fierbere</th>
+                        <td>1473°C</td>
+                    </tr>
+                    <tr>
+                        <th>Densitate</th>
+                        <td>11,85 g/cm<sup>3</sup></td>
+                        <th>Electronegativitate</th>
+                        <td>1,8</td>
+                        <th>Culoare</th>
+                        <td>gri / argintiu</td>
+                    </tr>
+                    <tr>
+                        <th>Bloc, grupă, perioadă</th>
+                        <td>p, 13, 6</td>
+                        <th>Număr de oxidare</th>
+                        <td>I, III</td>
+                        <th>Volum molar</th>
+                        <td>17,2 cm<sup>3</sup>/mol</td>
+                    </tr>
+                </table>
+                <div class="discovery">
+                    <h3 class="subtitle">Descoperire</h3>
+                    <hr>
+                    <p class="disc-info">
+                        Taliul a fost descoperit de Sir William Crookes în 1861, la Londra. În 1850, Crookes primise un depozit conținând seleniu de la o fabrică de acid sulfuric 
+                        din Tilkerode. A extras seleniul și a rămas cu reziduuri care păreau să conțină telur.
+                    </p>
+                </div>
+                <div class="uses"> 
+                    <h3 class="subtitle">Folosință</h3>
+                    <hr>
+                    <ul class="uses-info">
+                        <li>Sulfatul de taliu, care este inodor și incolor, a fost folosit ca otravă de șobolan și ca insecticid. Această utilizare a fost întreruptă în unele țări, 
+                            inclusiv în SUA.</li>
+                        <li>Sulfura de taliu este folosită în fotocelule, deoarece conductivitatea sa electrică crește la expunerea la lumina infraroșie.</li>
+                        <li>Oxidul de taliu este utilizat pentru fabricarea sticlei care are un indice ridicat de refracție.</li>
+                        <li>Taliul este de asemenea utilizat în echipamentele de detectare a radiațiilor gamma.</li>
+                    </ul>
+                </div>
+                <div class="fun-facts">
+                    <h3 class="subtitle">Fun Facts</h3>
+                    <hr>
+                    <ul class="facts-info">
+                        <li>Taliu este un metal foarte moale, maleabil, lustros, cu topire scăzută, argintiu, care se tinde în aer până la oxidul gri-albăstrui.</li>
+                        <li>În aparență seamănă cu plumb.
+                        </li>
+                        <li>Metalul poate fi ușor tăiat cu un cuțit.</li>
+                        <li>În prezența apei, se formează hidroxid de taliu otrăvitor (TlOH).</li>
+                        <li>Taliul se dizolvă încet în acid clorhidric și diluează acidul sulfuric și se dizolvă rapid în acidul azotic.</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <footer>
+            <div class="footer">
+                <h3 class="footer-title">Contact:</h3>
+                <form action="">
+                    <label for="first-name">Prenume:</label><br>
+                    <input type="text" id="first-name" name="first-name" placeholder="Prenume" required><br>
+                    <label for="last-name">Nume:</label><br>
+                    <input type="text" id="last-name" name="last-name" placeholder="Nume" required><br>
+                    <label for="email-address">Adresă de email:</label><br>
+                    <input type="email" id="email-address" name="email-address" placeholder="Email" required><br>
+                    <label for="message">Mesaj:</label><br>
+                    <textarea name="message" id="message" cols="30" rows="10" placeholder="Mesaje, întrebări, păreri, etc." required></textarea><br><br>
+                    <input type="submit" value="Trimite">
+                </form>
+            </div>
+        </footer>
+    </body>
+</html>

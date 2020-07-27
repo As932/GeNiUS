@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="ro-RO">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <script src="https://kit.fontawesome.com/6b95d4e239.js" crossorigin="anonymous"></script>
+        <link href='https://fonts.googleapis.com/css?family=Lemonada' rel='stylesheet'>
+        <link rel="stylesheet" type="text/css" href="layout.css">   
+        <link rel="stylesheet" type="text/css" href="element.css">        
+        <title>GeNiUS</title>
+    </head>
+    <body>
+        <header>
+            <div class="header">
+                <h1 id="title">GeNiUS</h1>
+                <h3 id="subtitle">Germaniu-Nichel-Uraniu-Sulf</h3>
+                <h4 id="subtitle">Chemistry is FUN</h4>
+            </div>
+        </header>
+        <nav class="menu">
+            <button class="back" onclick="history.back()"><i class="fas fa-arrow-circle-left"></i></button>
+            <button class="back" onclick="history.forward()"><i class="fas fa-arrow-circle-right"></i></button>
+            <a class="menu-item" href="home.html"><i class="fas fa-home"></i>Acasă</a>
+            <a class="menu-item active" href="table.html"><i class="fas fa-atom"></i>Tabelul periodic</a>
+            <a class="menu-item" href="quizz.html"><i class="fas fa-book-open"></i>Quizz-uri</a>
+            <a class="menu-item" href="dictionary.html"><i class="fas fa-book"></i>Dicționar de termeni</a>
+        </nav>
+        <div class="main-container">
+            <h2 class="elm-title">Fluor</h2>
+            <div class="info">
+                <table>
+                    <caption>Proprietăți</caption>
+                    <tr>
+                        <th colspan="2">Informații generale</th>
+                        <th colspan="2">Proprietăți chimice</th>
+                        <th colspan="2">Proprietăți fizice</th>
+                    </tr>
+                    <tr>
+                        <th>Denumire</th>
+                        <td>Fluor</td>
+                        <th>Număr atomic</th>
+                        <td>9</td>
+                        <th>Stare de agregare</th>
+                        <td>gaz</td>
+                    </tr>
+                    <tr>
+                        <th>Simbol</th>
+                        <td>F</td>
+                        <th>Masă atomică</th>
+                        <td>18,99</td>
+                        <th>Punct de topire</th>
+                        <td>-219,6°C</td>
+                    </tr>
+                    <tr>
+                        <th>Serie chimică</th>
+                        <td>nemetal</td>
+                        <th>Configurație electronică</th>
+                        <td>1s<sup>2</sup> 2s<sup>2</sup> 2p<sup>5</sup></td>
+                        <th>Punct de fierbere</th>
+                        <td>-188,1°C</td>
+                    </tr>
+                    <tr>
+                        <th>Densitate</th>
+                        <td>0,001696 g/cm<sup>3</sup></td>
+                        <th>Electronegativitate</th>
+                        <td>4,0</td>
+                        <th>Culoare</th>
+                        <td>galben pal</td>
+                    </tr>
+                    <tr>
+                        <th>Bloc, grupă, perioadă</th>
+                        <td>p, 17, 2</td>
+                        <th>Număr de oxidare</th>
+                        <td>I</td>
+                        <th>Volum molar</th>
+                        <td>17,1 cm<sup>3</sup>/mol</td>
+                    </tr>
+                </table>
+                <div class="discovery">
+                    <h3 class="subtitle">Descoperire</h3>
+                    <hr>
+                    <p class="disc-info">
+                        În 1530, mineralogistul german Georgius Agricola a descris folosirea fluorului mineral în rafinarea metalelor. Fluorsparul (despre care știm acum este în principal 
+                        fluorura de calciu) a fost foarte util, deoarece s-a combinat cu părțile nedorite ale minereurilor metalice, permițând curgerii și colectării metalului pur.
+                    </p>
+                </div>
+                <div class="uses"> 
+                    <h3 class="subtitle">Folosință</h3>
+                    <hr>
+                    <ul class="uses-info">
+                        <li>Fluorul și compușii săi - mai ales hexafluorura de uraniu - sunt folosiți la prelucrarea combustibilului nuclear.</li>
+                        <li>Produsele fluorochimice, inclusiv multe materiale plastice de înaltă temperatură, cum ar fi teflonul, sunt fabricate de asemenea cu fluor.</li>
+                        <li>Compușii de fluor, inclusiv fluorura de sodiu, sunt folosiți în pasta de dinți și în apa potabilă pentru a preveni cavitățile dentare.</li>
+                        <li>Acidul fluorhidric poate dizolva sticla și este utilizat pentru a graba sticla în becuri și în alte produse.</li>
+                    </ul>
+                </div>
+                <div class="fun-facts">
+                    <h3 class="subtitle">Fun Facts</h3>
+                    <hr>
+                    <ul class="facts-info">
+                        <li>Fluorul este cel mai reactiv și cel mai electronegativ dintre toate elementele.
+                        </li>
+                        <li>Fluorul este un gaz galben pal, diatomic, puternic coroziv, inflamabil, cu un miros înțepător. Este cel mai ușor halogen.</li>
+                        <li>Reacționează violent cu apa pentru a produce oxigen și acidul fluorhidric extrem de coroziv.</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <footer>
+            <div class="footer">
+                <h3 class="footer-title">Contact:</h3>
+                <form action="">
+                    <label for="first-name">Prenume:</label><br>
+                    <input type="text" id="first-name" name="first-name" placeholder="Prenume" required><br>
+                    <label for="last-name">Nume:</label><br>
+                    <input type="text" id="last-name" name="last-name" placeholder="Nume" required><br>
+                    <label for="email-address">Adresă de email:</label><br>
+                    <input type="email" id="email-address" name="email-address" placeholder="Email" required><br>
+                    <label for="message">Mesaj:</label><br>
+                    <textarea name="message" id="message" cols="30" rows="10" placeholder="Mesaje, întrebări, păreri, etc." required></textarea><br><br>
+                    <input type="submit" value="Trimite">
+                </form>
+            </div>
+        </footer>
+    </body>
+</html>

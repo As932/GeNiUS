@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="ro-RO">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <script src="https://kit.fontawesome.com/6b95d4e239.js" crossorigin="anonymous"></script>
+        <link href='https://fonts.googleapis.com/css?family=Lemonada' rel='stylesheet'>
+        <link rel="stylesheet" type="text/css" href="layout.css">   
+        <link rel="stylesheet" type="text/css" href="element.css">        
+        <title>GeNiUS</title>
+    </head>
+    <body>
+        <header>
+            <div class="header">
+                <h1 id="title">GeNiUS</h1>
+                <h3 id="subtitle">Germaniu-Nichel-Uraniu-Sulf</h3>
+                <h4 id="subtitle">Chemistry is FUN</h4>
+            </div>
+        </header>
+        <nav class="menu">
+            <button class="back" onclick="history.back()"><i class="fas fa-arrow-circle-left"></i></button>
+            <button class="back" onclick="history.forward()"><i class="fas fa-arrow-circle-right"></i></button>
+            <a class="menu-item" href="home.html"><i class="fas fa-home"></i>Acasă</a>
+            <a class="menu-item active" href="table.html"><i class="fas fa-atom"></i>Tabelul periodic</a>
+            <a class="menu-item" href="quizz.html"><i class="fas fa-book-open"></i>Quizz-uri</a>
+            <a class="menu-item" href="dictionary.html"><i class="fas fa-book"></i>Dicționar de termeni</a>
+        </nav>
+        <div class="main-container">
+            <h2 class="elm-title">Indiu</h2>
+            <div class="info">
+                <table>
+                    <caption>Proprietăți</caption>
+                    <tr>
+                        <th colspan="2">Informații generale</th>
+                        <th colspan="2">Proprietăți chimice</th>
+                        <th colspan="2">Proprietăți fizice</th>
+                    </tr>
+                    <tr>
+                        <th>Denumire</th>
+                        <td>Indiu</td>
+                        <th>Număr atomic</th>
+                        <td>49</td>
+                        <th>Stare de agregare</th>
+                        <td>solid</td>
+                    </tr>
+                    <tr>
+                        <th>Simbol</th>
+                        <td>In</td>
+                        <th>Masă atomică</th>
+                        <td>114,8</td>
+                        <th>Punct de topire</th>
+                        <td>156,6°C</td>
+                    </tr>
+                    <tr>
+                        <th>Serie chimică</th>
+                        <td>'alt metal'</td>
+                        <th>Configurație electronică</th>
+                        <td>4d<sup>10</sup> 5s<sup>2</sup> 5p<sup>1</sup></td>
+                        <th>Punct de fierbere</th>
+                        <td>2070°C</td>
+                    </tr>
+                    <tr>
+                        <th>Densitate</th>
+                        <td>7,31 g/cm<sup>3</sup></td>
+                        <th>Electronegativitate</th>
+                        <td>1,7</td>
+                        <th>Culoare</th>
+                        <td>alb / argintiu</td>
+                    </tr>
+                    <tr>
+                        <th>Bloc, grupă, perioadă</th>
+                        <td>p, 13, 5</td>
+                        <th>Număr de oxidare</th>
+                        <td>III</td>
+                        <th>Volum molar</th>
+                        <td>15,7 cm<sup>3</sup>/mol</td>
+                    </tr>
+                </table>
+                <div class="discovery">
+                    <h3 class="subtitle">Descoperire</h3>
+                    <hr>
+                    <p class="disc-info">
+                        În 1863, Ferdinand Reich a descoperit indiul în Germania. El intenționase să investigheze dacă minereul de sulfură de zinc (sphalerită) conținea și taliu. În schimb, ca urmare a observațiilor sale atente, a devenit descoperitorul unui element nou.
+                        După prăjirea minereului pentru a îndepărta cea mai mare parte a sulfului, el a descompus materialul rămas cu acid clorhidric.
+                    </p>
+                </div>
+                <div class="uses"> 
+                    <h3 class="subtitle">Folosință</h3>
+                    <hr>
+                    <ul class="uses-info">
+                        <li>Indiul este utilizat la producerea aliajelor cu topire scăzută, de obicei cu galiu.</li>
+                        <li>Punctul de topire depinde de raportul dintre indiu și galiu.</li>
+                        <li>Acest tip de aliaj poate fi utilizat ca o alternativă non-toxică la mercur în unele aplicații.</li>
+                        <li>Compușii de indiu sunt folosiți în industria semiconductorilor pentru tranzistoarele de germaniu, termistori, redresoare și fotocelule.</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <footer>
+            <div class="footer">
+                <h3 class="footer-title">Contact:</h3>
+                <form action="">
+                    <label for="first-name">Prenume:</label><br>
+                    <input type="text" id="first-name" name="first-name" placeholder="Prenume" required><br>
+                    <label for="last-name">Nume:</label><br>
+                    <input type="text" id="last-name" name="last-name" placeholder="Nume" required><br>
+                    <label for="email-address">Adresă de email:</label><br>
+                    <input type="email" id="email-address" name="email-address" placeholder="Email" required><br>
+                    <label for="message">Mesaj:</label><br>
+                    <textarea name="message" id="message" cols="30" rows="10" placeholder="Mesaje, întrebări, păreri, etc." required></textarea><br><br>
+                    <input type="submit" value="Trimite">
+                </form>
+            </div>
+        </footer>
+    </body>
+</html>

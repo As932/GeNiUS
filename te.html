@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="ro-RO">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <script src="https://kit.fontawesome.com/6b95d4e239.js" crossorigin="anonymous"></script>
+        <link href='https://fonts.googleapis.com/css?family=Lemonada' rel='stylesheet'>
+        <link rel="stylesheet" type="text/css" href="layout.css">   
+        <link rel="stylesheet" type="text/css" href="element.css">        
+        <title>GeNiUS</title>
+    </head>
+    <body>
+        <header>
+            <div class="header">
+                <h1 id="title">GeNiUS</h1>
+                <h3 id="subtitle">Germaniu-Nichel-Uraniu-Sulf</h3>
+                <h4 id="subtitle">Chemistry is FUN</h4>
+            </div>
+        </header>
+        <nav class="menu">
+            <button class="back" onclick="history.back()"><i class="fas fa-arrow-circle-left"></i></button>
+            <button class="back" onclick="history.forward()"><i class="fas fa-arrow-circle-right"></i></button>
+            <a class="menu-item" href="home.html"><i class="fas fa-home"></i>Acasă</a>
+            <a class="menu-item active" href="table.html"><i class="fas fa-atom"></i>Tabelul periodic</a>
+            <a class="menu-item" href="quizz.html"><i class="fas fa-book-open"></i>Quizz-uri</a>
+            <a class="menu-item" href="dictionary.html"><i class="fas fa-book"></i>Dicționar de termeni</a>
+        </nav>
+        <div class="main-container">
+            <h2 class="elm-title">Telur</h2>
+            <div class="info">
+                <table>
+                    <caption>Proprietăți</caption>
+                    <tr>
+                        <th colspan="2">Informații generale</th>
+                        <th colspan="2">Proprietăți chimice</th>
+                        <th colspan="2">Proprietăți fizice</th>
+                    </tr>
+                    <tr>
+                        <th>Denumire</th>
+                        <td>Telur</td>
+                        <th>Număr atomic</th>
+                        <td>52</td>
+                        <th>Stare de agregare</th>
+                        <td>solid</td>
+                    </tr>
+                    <tr>
+                        <th>Simbol</th>
+                        <td>Te</td>
+                        <th>Masă atomică</th>
+                        <td>127,6</td>
+                        <th>Punct de topire</th>
+                        <td>450°C</td>
+                    </tr>
+                    <tr>
+                        <th>Serie chimică</th>
+                        <td>metaloid</td>
+                        <th>Configurație electronică</th>
+                        <td>4d<sup>10</sup> 5s<sup>2</sup> 5p<sup>4</sup></td>
+                        <th>Punct de fierbere</th>
+                        <td>990°C</td>
+                    </tr>
+                    <tr>
+                        <th>Densitate</th>
+                        <td>6,24 g/cm<sup>3</sup></td>
+                        <th>Electronegativitate</th>
+                        <td>2,1</td>
+                        <th>Culoare</th>
+                        <td>argintiu</td>
+                    </tr>
+                    <tr>
+                        <th>Bloc, grupă, perioadă</th>
+                        <td>p, 16, 5</td>
+                        <th>Număr de oxidare</th>
+                        <td>II, IV, VI</td>
+                        <th>Volum molar</th>
+                        <td>20,5 cm<sup>3</sup>/mol</td>
+                    </tr>
+                </table>
+                <div class="discovery">
+                    <h3 class="subtitle">Descoperire</h3>
+                    <hr>
+                    <p class="disc-info">
+                        În anii 1700, oamenii de știință au fost confundați de o substanță găsită în diverse minereuri. Deși nu au putut izola substanța, proprietățile minereurilor 
+                        par să indice că substanța are proprietăți atât metalice cât și nemetalice. Aceștia au numit noua substanță „aurum paradoxum” însemnând paradoxal / 
+                        ilogic aur sau „metalum problematum” adică problemă metal.
+                    </p>
+                </div>
+                <div class="uses"> 
+                    <h3 class="subtitle">Folosință</h3>
+                    <hr>
+                    <ul class="uses-info">
+                        <li>Telurul este aliat cu cupru și oțel inoxidabil pentru a face aceste metale mai viabile.
+                        </li>
+                        <li>Se adaugă la niveluri foarte scăzute pentru a duce la scăderea acțiunii corozive a acidului sulfuric din baterii și pentru a îmbunătăți rezistența și duritatea plumbului.
+                        </li>
+                        <li>Telurul este utilizat ca agent de colorare în ceramică.
+                        </li>
+                        <li>Telurul este utilizat și în industria electronică, de exemplu cu cadmiu și mercur pentru a forma semiconductori fotosensibili.</li>
+                    </ul>
+                </div>
+                <div class="fun-facts">
+                    <h3 class="subtitle">Fun Facts</h3>
+                    <hr>
+                    <ul class="facts-info">
+                        <li>Tellurul este un metaloid rar, alb argintiu, fragil, lustros.</li>
+                        <li>Arde în aer cu o flacără albastru-verzui și formează dioxid de telur alb.</li>
+                        <li>Când este prezent în compuși, telurul există mai ales în stările de oxidare IV și VI.</li>
+                        <li>Tellurul este un material semiconductor și este ușor fotosensibil.</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <footer>
+            <div class="footer">
+                <h3 class="footer-title">Contact:</h3>
+                <form action="">
+                    <label for="first-name">Prenume:</label><br>
+                    <input type="text" id="first-name" name="first-name" placeholder="Prenume" required><br>
+                    <label for="last-name">Nume:</label><br>
+                    <input type="text" id="last-name" name="last-name" placeholder="Nume" required><br>
+                    <label for="email-address">Adresă de email:</label><br>
+                    <input type="email" id="email-address" name="email-address" placeholder="Email" required><br>
+                    <label for="message">Mesaj:</label><br>
+                    <textarea name="message" id="message" cols="30" rows="10" placeholder="Mesaje, întrebări, păreri, etc." required></textarea><br><br>
+                    <input type="submit" value="Trimite">
+                </form>
+            </div>
+        </footer>
+    </body>
+</html>

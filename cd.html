@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="ro-RO">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <script src="https://kit.fontawesome.com/6b95d4e239.js" crossorigin="anonymous"></script>
+        <link href='https://fonts.googleapis.com/css?family=Lemonada' rel='stylesheet'>
+        <link rel="stylesheet" type="text/css" href="layout.css">   
+        <link rel="stylesheet" type="text/css" href="element.css">        
+        <title>GeNiUS</title>
+    </head>
+    <body>
+        <header>
+            <div class="header">
+                <h1 id="title">GeNiUS</h1>
+                <h3 id="subtitle">Germaniu-Nichel-Uraniu-Sulf</h3>
+                <h4 id="subtitle">Chemistry is FUN</h4>
+            </div>
+        </header>
+        <nav class="menu">
+            <button class="back" onclick="history.back()"><i class="fas fa-arrow-circle-left"></i></button>
+            <button class="back" onclick="history.forward()"><i class="fas fa-arrow-circle-right"></i></button>
+            <a class="menu-item" href="home.html"><i class="fas fa-home"></i>Acasă</a>
+            <a class="menu-item active" href="table.html"><i class="fas fa-atom"></i>Tabelul periodic</a>
+            <a class="menu-item" href="quizz.html"><i class="fas fa-book-open"></i>Quizz-uri</a>
+            <a class="menu-item" href="dictionary.html"><i class="fas fa-book"></i>Dicționar de termeni</a>
+        </nav>
+        <div class="main-container">
+            <h2 class="elm-title">Cadmiu</h2>
+            <div class="info">
+                <table>
+                    <caption>Proprietăți</caption>
+                    <tr>
+                        <th colspan="2">Informații generale</th>
+                        <th colspan="2">Proprietăți chimice</th>
+                        <th colspan="2">Proprietăți fizice</th>
+                    </tr>
+                    <tr>
+                        <th>Denumire</th>
+                        <td>Cadmiu</td>
+                        <th>Număr atomic</th>
+                        <td>48</td>
+                        <th>Stare de agregare</th>
+                        <td>solid</td>
+                    </tr>
+                    <tr>
+                        <th>Simbol</th>
+                        <td>Cd</td>
+                        <th>Masă atomică</th>
+                        <td>112,4</td>
+                        <th>Punct de topire</th>
+                        <td>321,1°C</td>
+                    </tr>
+                    <tr>
+                        <th>Serie chimică</th>
+                        <td>metal de tranziție</td>
+                        <th>Configurație electronică</th>
+                        <td>4d<sup>10</sup> 5s<sup>2</sup></td>
+                        <th>Punct de fierbere</th>
+                        <td>765°C</td>
+                    </tr>
+                    <tr>
+                        <th>Densitate</th>
+                        <td>8,65 g/cm<sup>3</sup></td>
+                        <th>Electronegativitate</th>
+                        <td>1,7</td>
+                        <th>Culoare</th>
+                        <td>alb / albăstrui</td>
+                    </tr>
+                    <tr>
+                        <th>Bloc, grupă, perioadă</th>
+                        <td>d, 12, 5</td>
+                        <th>Număr de oxidare</th>
+                        <td>II</td>
+                        <th>Volum molar</th>
+                        <td>13,1 cm<sup>3</sup>/mol</td>
+                    </tr>
+                </table>
+                <div class="discovery">
+                    <h3 class="subtitle">Descoperire</h3>
+                    <hr>
+                    <p class="disc-info">
+                        Cadmium a fost descoperit de chimistul german Friedrich Stromeyer în 1817 ca o impuritate în oxidul de zinc. Stromeyer și-a făcut descoperirea după o solicitare 
+                        a guvernului de a inspecta farmaciile din orașul Hildesheim, Germania.
+                    </p>
+                </div>
+                <div class="uses"> 
+                    <h3 class="subtitle">Folosință</h3>
+                    <hr>
+                    <ul class="uses-info">
+                        <li>Utilizarea principală a cadmiumului este în baterii (în special baterii reîncărcabile cu nichel-cadmiu, NiCad, baterii).</li>
+                        <li>Ca urmare a coeficientului său scăzut de frecare și a rezistenței ridicate la oboseală, cadmiul este utilizat în aliaje pentru rulmenți. Cadmiu este utilizat 
+                            în aliaje cu topire scăzută și este o componentă a mai multor tipuri de lipit. Este, de asemenea, utilizat în galvanizare.</li>
+                        <li>Compușii care conțin cadmiu sunt folosiți în fosforii de televiziune alb-negru, iar în fosforii albastri și verzi pentru tuburile de televiziune color. 
+                            Sulfura de cadmiu este folosită ca un pigment galben, iar selenida de cadmiu este folosită ca un pigment roșu, adesea numit roșu de cadmiu.</li>
+                    </ul>
+                </div>
+                <div class="fun-facts">
+                    <h3 class="subtitle">Fun Facts</h3>
+                    <hr>
+                    <ul class="facts-info">
+                        <li>Cadmium este un metal moale, maleabil, ductil, alb-albăstrui, care este ușor tăiat cu un cuțit. Este un conductor electric excelent și prezintă o 
+                            rezistență bună la coroziune și atacuri de substanțe chimice.</li>
+                        <li>Este similar în multe privințe cu zincul în proprietățile sale chimice.</li>
+                        <li>Cadmiul se tinde în aer și este solubil în acizi, dar nu în alcaline.</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <footer>
+            <div class="footer">
+                <h3 class="footer-title">Contact:</h3>
+                <form action="">
+                    <label for="first-name">Prenume:</label><br>
+                    <input type="text" id="first-name" name="first-name" placeholder="Prenume" required><br>
+                    <label for="last-name">Nume:</label><br>
+                    <input type="text" id="last-name" name="last-name" placeholder="Nume" required><br>
+                    <label for="email-address">Adresă de email:</label><br>
+                    <input type="email" id="email-address" name="email-address" placeholder="Email" required><br>
+                    <label for="message">Mesaj:</label><br>
+                    <textarea name="message" id="message" cols="30" rows="10" placeholder="Mesaje, întrebări, păreri, etc." required></textarea><br><br>
+                    <input type="submit" value="Trimite">
+                </form>
+            </div>
+        </footer>
+    </body>
+</html>

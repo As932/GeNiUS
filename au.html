@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="ro-RO">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <script src="https://kit.fontawesome.com/6b95d4e239.js" crossorigin="anonymous"></script>
+        <link href='https://fonts.googleapis.com/css?family=Lemonada' rel='stylesheet'>
+        <link rel="stylesheet" type="text/css" href="layout.css">   
+        <link rel="stylesheet" type="text/css" href="element.css">        
+        <title>GeNiUS</title>
+    </head>
+    <body>
+        <header>
+            <div class="header">
+                <h1 id="title">GeNiUS</h1>
+                <h3 id="subtitle">Germaniu-Nichel-Uraniu-Sulf</h3>
+                <h4 id="subtitle">Chemistry is FUN</h4>
+            </div>
+        </header>
+        <nav class="menu">
+            <button class="back" onclick="history.back()"><i class="fas fa-arrow-circle-left"></i></button>
+            <button class="back" onclick="history.forward()"><i class="fas fa-arrow-circle-right"></i></button>
+            <a class="menu-item" href="home.html"><i class="fas fa-home"></i>Acasă</a>
+            <a class="menu-item active" href="table.html"><i class="fas fa-atom"></i>Tabelul periodic</a>
+            <a class="menu-item" href="quizz.html"><i class="fas fa-book-open"></i>Quizz-uri</a>
+            <a class="menu-item" href="dictionary.html"><i class="fas fa-book"></i>Dicționar de termeni</a>
+        </nav>
+        <div class="main-container">
+            <h2 class="elm-title">Aur</h2>
+            <div class="info">
+                <table>
+                    <caption>Proprietăți</caption>
+                    <tr>
+                        <th colspan="2">Informații generale</th>
+                        <th colspan="2">Proprietăți chimice</th>
+                        <th colspan="2">Proprietăți fizice</th>
+                    </tr>
+                    <tr>
+                        <th>Denumire</th>
+                        <td>Aur</td>
+                        <th>Număr atomic</th>
+                        <td>79</td>
+                        <th>Stare de agregare</th>
+                        <td>solid</td>
+                    </tr>
+                    <tr>
+                        <th>Simbol</th>
+                        <td>Au</td>
+                        <th>Masă atomică</th>
+                        <td>197,0</td>
+                        <th>Punct de topire</th>
+                        <td>1064,18°C</td>
+                    </tr>
+                    <tr>
+                        <th>Serie chimică</th>
+                        <td>metal de tranziție</td>
+                        <th>Configurație electronică</th>
+                        <td>4f<sup>14</sup> 5d<sup>10</sup> 6s<sup>1</sup></td>
+                        <th>Punct de fierbere</th>
+                        <td>2850°C</td>
+                    </tr>
+                    <tr>
+                        <th>Densitate</th>
+                        <td>19,32 g/cm<sup>3</sup></td>
+                        <th>Electronegativitate</th>
+                        <td>2,4</td>
+                        <th>Culoare</th>
+                        <td>galben / auriu</td>
+                    </tr>
+                    <tr>
+                        <th>Bloc, grupă, perioadă</th>
+                        <td>d, 11, 6</td>
+                        <th>Număr de oxidare</th>
+                        <td>I, III</td>
+                        <th>Volum molar</th>
+                        <td>10,2 cm<sup>3</sup>/mol</td>
+                    </tr>
+                </table>
+                <div class="discovery">
+                    <h3 class="subtitle">Descoperire</h3>
+                    <hr>
+                    <p class="disc-info">
+                        Oamenii au cunoscut aurul și l-au apreciat încă din timpuri preistorice. Cine a descoperit aurul? Nu știm, a fost descoperit înainte să existe 
+                        înregistrări scrise. Știm că există șanse mari ca descoperitorul să îl fi găsit în albia râului.
+                        Aurul este de obicei asociat cu roci precum cuarțul și piritele. Deoarece aceste roci suferă de intemperii sau eroziune de apă, aurul poate fi spălat 
+                        în râuri, permițând oamenilor să-l găsească cu ușurință.
+                    </p>
+                </div>
+                <div class="uses"> 
+                    <h3 class="subtitle">Folosință</h3>
+                    <hr>
+                    <ul class="uses-info">
+                        <li>Aurul este utilizat pe scară largă în bijuterii și monede. De asemenea, este utilizat în lucrările stomatologice ca coroane, ca placare de aur pentru 
+                            decorare și ca fir de aur în lucrările de broderie. Conținutul de aur din aliaje este de obicei măsurat în carate (k), cu aur pur definit ca 24k.</li>
+                        <li>Mulți sateliți poartă foi de miel acoperite cu aur ca scut solar de căldură, deoarece aurul este un excelent reflector al radiațiilor și nereactive. În 
+                            mod similar, vizierele de cască ale astronautului sunt acoperite cu un strat subțire de aur pentru a proteja efectele periculoase ale radiațiilor solare.</li>
+                        <li>Aurul este utilizat pe scară largă în circuitele microelectronice pentru a asigura performanțe fiabile, rezistente la coroziune și fără statică.</li>
+                    </ul>
+                </div>
+                <div class="fun-facts">
+                    <h3 class="subtitle">Fun Facts</h3>
+                    <hr>
+                    <ul class="facts-info">
+                        <li>Aurul este un excelent conductor de căldură și electricitate.</li>
+                        <li>Este un metal moale, galben, cu o strălucire strălucitoare. Este cel mai maleabil și ductil dintre toate elementele și un singur gram poate 
+                            fi bătut într-o foaie de aur de un metru pătrat.</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <footer>
+            <div class="footer">
+                <h3 class="footer-title">Contact:</h3>
+                <form action="">
+                    <label for="first-name">Prenume:</label><br>
+                    <input type="text" id="first-name" name="first-name" placeholder="Prenume" required><br>
+                    <label for="last-name">Nume:</label><br>
+                    <input type="text" id="last-name" name="last-name" placeholder="Nume" required><br>
+                    <label for="email-address">Adresă de email:</label><br>
+                    <input type="email" id="email-address" name="email-address" placeholder="Email" required><br>
+                    <label for="message">Mesaj:</label><br>
+                    <textarea name="message" id="message" cols="30" rows="10" placeholder="Mesaje, întrebări, păreri, etc." required></textarea><br><br>
+                    <input type="submit" value="Trimite">
+                </form>
+            </div>
+        </footer>
+    </body>
+</html>

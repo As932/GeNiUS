@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="ro-RO">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <script src="https://kit.fontawesome.com/6b95d4e239.js" crossorigin="anonymous"></script>
+        <link href='https://fonts.googleapis.com/css?family=Lemonada' rel='stylesheet'>
+        <link rel="stylesheet" type="text/css" href="layout.css">   
+        <link rel="stylesheet" type="text/css" href="element.css">        
+        <title>GeNiUS</title>
+    </head>
+    <body>
+        <header>
+            <div class="header">
+                <h1 id="title">GeNiUS</h1>
+                <h3 id="subtitle">Germaniu-Nichel-Uraniu-Sulf</h3>
+                <h4 id="subtitle">Chemistry is FUN</h4>
+            </div>
+        </header>
+        <nav class="menu">
+            <button class="back" onclick="history.back()"><i class="fas fa-arrow-circle-left"></i></button>
+            <button class="back" onclick="history.forward()"><i class="fas fa-arrow-circle-right"></i></button>
+            <a class="menu-item" href="home.html"><i class="fas fa-home"></i>Acasă</a>
+            <a class="menu-item active" href="table.html"><i class="fas fa-atom"></i>Tabelul periodic</a>
+            <a class="menu-item" href="quizz.html"><i class="fas fa-book-open"></i>Quizz-uri</a>
+            <a class="menu-item" href="dictionary.html"><i class="fas fa-book"></i>Dicționar de termeni</a>
+        </nav>
+        <div class="main-container">
+            <h2 class="elm-title">Sulf</h2>
+            <div class="info">
+                <table>
+                    <caption>Proprietăți</caption>
+                    <tr>
+                        <th colspan="2">Informații generale</th>
+                        <th colspan="2">Proprietăți chimice</th>
+                        <th colspan="2">Proprietăți fizice</th>
+                    </tr>
+                    <tr>
+                        <th>Denumire</th>
+                        <td>Sulf</td>
+                        <th>Număr atomic</th>
+                        <td>16</td>
+                        <th>Stare de agregare</th>
+                        <td>solid</td>
+                    </tr>
+                    <tr>
+                        <th>Simbol</th>
+                        <td>S</td>
+                        <th>Masă atomică</th>
+                        <td>32,07</td>
+                        <th>Punct de topire</th>
+                        <td>115,2°C</td>
+                    </tr>
+                    <tr>
+                        <th>Serie chimică</th>
+                        <td>nemetal</td>
+                        <th>Configurație electronică</th>
+                        <td>1s<sup>2</sup> 2s<sup>2</sup> 2p<sup>6</sup> 3s<sup>2</sup> 3p<sup>4</sup></td>
+                        <th>Punct de fierbere</th>
+                        <td>444,7°C</td>
+                    </tr>
+                    <tr>
+                        <th>Densitate</th>
+                        <td>2,07 g/cm<sup>3</sup></td>
+                        <th>Electronegativitate</th>
+                        <td>2,5</td>
+                        <th>Culoare</th>
+                        <td>galben</td>
+                    </tr>
+                    <tr>
+                        <th>Bloc, grupă, perioadă</th>
+                        <td>p, 16, 3</td>
+                        <th>Număr de oxidare</th>
+                        <td>II, IV, VI</td>
+                        <th>Volum molar</th>
+                        <td>15,5 cm<sup>3</sup>/mol</td>
+                    </tr>
+                </table>
+                <div class="discovery">
+                    <h3 class="subtitle">Descoperire</h3>
+                    <hr>
+                    <p class="disc-info">
+                        Sulful este cunoscut din cele mai vechi timpuri. În Biblie se numește pucioasă. Poate fi găsit în starea sa elementară în jurul gurilor de evacuare a vulcanilor.
+                        Numele poate fi derivat din arabul „sufra” care înseamnă galben sau din sanscrita „shulbari” care înseamnă dușman (ari) al cuprului (shulba).
+                    </p>
+                </div>
+                <div class="uses"> 
+                    <h3 class="subtitle">Folosință</h3>
+                    <hr>
+                    <ul class="uses-info">
+                        <li>Principala utilizare comercială a sulfului este ca reactant în producerea acidului sulfuric. Acidul sulfuric este cel mai mare produs chimic din lume industrializat, 
+                            necesar în cantități mari în baterii cu plumb pentru utilizare auto.
+                        </li>
+                        <li>Sulful este utilizat și în vulcanizarea cauciucului natural, ca fungicid, în praful de pușcă negru, în detergenți și la fabricarea îngrășămintelor fosfat.</li>
+                        <li>Sulful este un element vital pentru toate formele de viață. Este o componentă a doi aminoacizi, cisteina și metionina.</li>
+                    </ul>
+                </div>
+                <div class="fun-facts">
+                    <h3 class="subtitle">Fun Facts</h3>
+                    <hr>
+                    <ul class="facts-info">
+                        <li>Sulful reprezintă aproape 3% din masa pământului. Dacă credeți că nu este mare lucru, data viitoare când vă uitați la cer și vedeți luna, gândiți-vă la acest 
+                            lucru: pământul conține suficient sulf pentru a face nu doar o nouă lună, ci două!</li>
+                        <li>Când Othello-ul lui Shakespeare cere pedepse, o posibilitate pe care o menționează este: „… prăjiți-mă în sulf!”</li>
+                        <li>Sulful ars cu o flacără albastră foarte satisfăcătoare - numele său vechi este pucioasă, ceea ce înseamnă „piatră arzătoare” sau „piatră care arde”.</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <footer>
+            <div class="footer">
+                <h3 class="footer-title">Contact:</h3>
+                <form action="">
+                    <label for="first-name">Prenume:</label><br>
+                    <input type="text" id="first-name" name="first-name" placeholder="Prenume" required><br>
+                    <label for="last-name">Nume:</label><br>
+                    <input type="text" id="last-name" name="last-name" placeholder="Nume" required><br>
+                    <label for="email-address">Adresă de email:</label><br>
+                    <input type="email" id="email-address" name="email-address" placeholder="Email" required><br>
+                    <label for="message">Mesaj:</label><br>
+                    <textarea name="message" id="message" cols="30" rows="10" placeholder="Mesaje, întrebări, păreri, etc." required></textarea><br><br>
+                    <input type="submit" value="Trimite">
+                </form>
+            </div>
+        </footer>
+    </body>
+</html>

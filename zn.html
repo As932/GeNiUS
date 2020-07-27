@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="ro-RO">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <script src="https://kit.fontawesome.com/6b95d4e239.js" crossorigin="anonymous"></script>
+        <link href='https://fonts.googleapis.com/css?family=Lemonada' rel='stylesheet'>
+        <link rel="stylesheet" type="text/css" href="layout.css">   
+        <link rel="stylesheet" type="text/css" href="element.css">        
+        <title>GeNiUS</title>
+    </head>
+    <body>
+        <header>
+            <div class="header">
+                <h1 id="title">GeNiUS</h1>
+                <h3 id="subtitle">Germaniu-Nichel-Uraniu-Sulf</h3>
+                <h4 id="subtitle">Chemistry is FUN</h4>
+            </div>
+        </header>
+        <nav class="menu">
+            <button class="back" onclick="history.back()"><i class="fas fa-arrow-circle-left"></i></button>
+            <button class="back" onclick="history.forward()"><i class="fas fa-arrow-circle-right"></i></button>
+            <a class="menu-item" href="home.html"><i class="fas fa-home"></i>Acasă</a>
+            <a class="menu-item active" href="table.html"><i class="fas fa-atom"></i>Tabelul periodic</a>
+            <a class="menu-item" href="quizz.html"><i class="fas fa-book-open"></i>Quizz-uri</a>
+            <a class="menu-item" href="dictionary.html"><i class="fas fa-book"></i>Dicționar de termeni</a>
+        </nav>
+        <div class="main-container">
+            <h2 class="elm-title">Zinc</h2>
+            <div class="info">
+                <table>
+                    <caption>Proprietăți</caption>
+                    <tr>
+                        <th colspan="2">Informații generale</th>
+                        <th colspan="2">Proprietăți chimice</th>
+                        <th colspan="2">Proprietăți fizice</th>
+                    </tr>
+                    <tr>
+                        <th>Denumire</th>
+                        <td>Zinc</td>
+                        <th>Număr atomic</th>
+                        <td>30</td>
+                        <th>Stare de agregare</th>
+                        <td>solid</td>
+                    </tr>
+                    <tr>
+                        <th>Simbol</th>
+                        <td>Zn</td>
+                        <th>Masă atomică</th>
+                        <td>65,39</td>
+                        <th>Punct de topire</th>
+                        <td>419,53°C</td>
+                    </tr>
+                    <tr>
+                        <th>Serie chimică</th>
+                        <td>metal de tranziție</td>
+                        <th>Configurație electronică</th>
+                        <td>3d<sup>10</sup> 4s<sup>2</sup></td>
+                        <th>Punct de fierbere</th>
+                        <td>910°C</td>
+                    </tr>
+                    <tr>
+                        <th>Densitate</th>
+                        <td>7,14 g/cm<sup>3</sup></td>
+                        <th>Electronegativitate</th>
+                        <td>1,6</td>
+                        <th>Culoare</th>
+                        <td>argintiu/albăstrui</td>
+                    </tr>
+                    <tr>
+                        <th>Bloc, grupă, perioadă</th>
+                        <td>d, 12, 4</td>
+                        <th>Număr de oxidare</th>
+                        <td>II</td>
+                        <th>Volum molar</th>
+                        <td>9,2 cm<sup>3</sup>/mol</td>
+                    </tr>
+                </table>
+                <div class="discovery">
+                    <h3 class="subtitle">Descoperire</h3>
+                    <hr>
+                    <p class="disc-info">
+                        Minereurile de zinc au fost folosite pentru a produce alama (un amestec de cupru și zinc) și alte aliaje din cele mai vechi timpuri.
+                        Un aliaj de zinc cuprinzând 87,5% zinc a fost descoperit într-un sit antic din Transilvania.
+                    </p>
+                </div>
+                <div class="uses"> 
+                    <h3 class="subtitle">Folosință</h3>
+                    <hr>
+                    <ul class="uses-info">
+                        <li>Zincul este folosit pentru a galvaniza fierul pentru a inhiba coroziunea.</li>
+                        <li>Zincul formează multe aliaje cu alte metale, cum ar fi arama, argintul german, argintul nichel, metalul de scris și de lipit. 
+                            Aliajele de zinc sunt utilizate la turnarea matriței pentru industria auto.</li>
+                        <li>Metalul acționează atât ca recipient, cât și ca electrod în bateriile zinc-carbon. Dezavantajul acestei duble utilizări este că 
+                            electrodul este consumat atunci când bateria este în funcțiune, devenind mai subțire până când în cele din urmă bateria începe să se scurgă.</li>
+                    </ul>
+                </div>
+                <div class="fun-facts">
+                    <h3 class="subtitle">Fun Facts</h3>
+                    <hr>
+                    <ul class="facts-info">
+                        <li>Zincul este un metal albastru-argintiu, lustros, care se tinde în aerul umed, producând un strat de carbonat.</li>
+                        <li>Zincul reacționează atât cu acizii, cât și cu alcalinele.</li>
+                        <li>Este un conductor bun al energiei electrice și arde în aer cu o flacără verde-albăstrui strălucitoare care produce nori albi de oxid.</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <footer>
+            <div class="footer">
+                <h3 class="footer-title">Contact:</h3>
+                <form action="">
+                    <label for="first-name">Prenume:</label><br>
+                    <input type="text" id="first-name" name="first-name" placeholder="Prenume" required><br>
+                    <label for="last-name">Nume:</label><br>
+                    <input type="text" id="last-name" name="last-name" placeholder="Nume" required><br>
+                    <label for="email-address">Adresă de email:</label><br>
+                    <input type="email" id="email-address" name="email-address" placeholder="Email" required><br>
+                    <label for="message">Mesaj:</label><br>
+                    <textarea name="message" id="message" cols="30" rows="10" placeholder="Mesaje, întrebări, păreri, etc." required></textarea><br><br>
+                    <input type="submit" value="Trimite">
+                </form>
+            </div>
+        </footer>
+    </body>
+</html>
